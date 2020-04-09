@@ -1,0 +1,1774 @@
+﻿Log file open, 03/30/20 19:34:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Koala
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.180282
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-10570792
+LogInit: Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU:        Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Dec  6 2019 02:05:13
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:425][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.31-01.34.27:425][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.31-01.34.27:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:426][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:428][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:428][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.31-01.34.27:428][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.31-01.34.27:428][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:428][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.31-01.34.27:428][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.31-01.34.27:429][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.31-01.34.27:430][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.31-01.34.27:430][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.31-01.34.27:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.31-01.34.27:442][  0]LogHAL: Display: Platform has ~ 8 GB [8488001536 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.31-01.34.27:442][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.31-01.34.27:442][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.31-01.34.27:442][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.31-01.34.27:443][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.31-01.34.27:444][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.03.31-01.34.27:444][  0]LogInit: Computer: DESKTOP-S7JHR63
+[2020.03.31-01.34.27:444][  0]LogInit: User: Peter
+[2020.03.31-01.34.27:444][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.03.31-01.34.27:444][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.31-01.34.27:444][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.03.31-01.34.27:445][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.31-01.34.27:445][  0]LogMemory: Process Physical Memory: 105.01 MB used, 105.02 MB peak
+[2020.03.31-01.34.27:445][  0]LogMemory: Process Virtual Memory: 99.55 MB used, 99.55 MB peak
+[2020.03.31-01.34.27:445][  0]LogMemory: Physical Memory: 4753.28 MB used,  3341.51 MB free, 8094.79 MB total
+[2020.03.31-01.34.27:445][  0]LogMemory: Virtual Memory: 5117.08 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.03.31-01.34.27:447][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.31-01.34.27:483][  0]LogInit: Using OS detected language (es-MX).
+[2020.03.31-01.34.27:483][  0]LogInit: Using OS detected locale (es-MX).
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/es-MX/Editor.locres' could not be opened for reading!
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/es-MX/EditorTutorials.locres' could not be opened for reading!
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/es-MX/Keywords.locres' could not be opened for reading!
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/es-MX/Category.locres' could not be opened for reading!
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/es-MX/ToolTips.locres' could not be opened for reading!
+[2020.03.31-01.34.27:485][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/es-MX/PropertyNames.locres' could not be opened for reading!
+[2020.03.31-01.34.27:486][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/es-MX/Engine.locres' could not be opened for reading!
+[2020.03.31-01.34.27:486][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/es-MX/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.03.31-01.34.27:486][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/es-MX/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.03.31-01.34.27:492][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/es-MX/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.03.31-01.34.27:753][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.31-01.34.27:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.31-01.34.27:832][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.31-01.34.31:753][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.31-01.34.31:753][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.31-01.34.31:753][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.31-01.34.31:753][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.31-01.34.31:823][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5200M' (Feature Level 11_0)
+[2020.03.31-01.34.31:823][  0]LogD3D11RHI:       979/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.31-01.34.31:830][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2020.03.31-01.34.31:830][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.31-01.34.31:838][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.31-01.34.31:838][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.31-01.34.31:838][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.31-01.34.31:863][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.31-01.34.31:863][  0]LogD3D11RHI:     GPU DeviceId: 0xdfc (for the marketing name, search the web for "GPU Device Id")
+[2020.03.31-01.34.31:863][  0]LogWindows: EnumDisplayDevices:
+[2020.03.31-01.34.31:863][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2020.03.31-01.34.31:864][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.03.31-01.34.31:864][  0]LogWindows:    2. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.03.31-01.34.31:864][  0]LogWindows:    3. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.03.31-01.34.31:864][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2020.03.31-01.34.31:865][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5200M
+[2020.03.31-01.34.31:865][  0]LogD3D11RHI:   Driver Version: 387.95 (internal:23.21.13.8795, unified:387.95)
+[2020.03.31-01.34.31:865][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2020.03.31-01.34.31:865][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2020.03.31-01.34.31:960][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.03.31-01.34.31:960][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.03.31-01.34.31:960][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.31-01.34.31:993][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.03.31-01.34.32:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.31-01.34.32:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.31-01.34.32:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.31-01.34.32:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.31-01.34.32:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.31-01.34.32:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.31-01.34.32:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.31-01.34.32:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.31-01.34.32:718][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.31-01.34.32:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.31-01.34.32:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.31-01.34.32:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.31-01.34.32:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.31-01.34.32:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.31-01.34.32:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.31-01.34.32:804][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.31-01.34.32:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.31-01.34.32:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.31-01.34.32:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.31-01.34.32:872][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.31-01.34.32:877][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.31-01.34.32:920][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Intermediate/Shaders/WorkingDirectory/2992/).
+[2020.03.31-01.34.32:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Peter/AppData/Local/Temp/UnrealShaderWorkingDir/080398784C6E27A992DDFFBE0CC3E6ED/'.
+[2020.03.31-01.34.32:921][  0]LogXGEController: Cleaning working directory: C:/Users/Peter/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.31-01.34.32:921][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.31-01.34.32:922][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.31-01.34.32:922][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.31-01.34.36:848][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.31-01.34.37:160][  0]LogDerivedDataCache: Loaded boot cache 0.31s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.31-01.34.37:160][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.31-01.34.37:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.31-01.34.37:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.31-01.34.37:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.31-01.34.37:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.31-01.34.37:178][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.31-01.34.37:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.31-01.34.37:178][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.31-01.34.37:180][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Peter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.31-01.34.37:180][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.31-01.34.37:180][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.31-01.34.37:222][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.31-01.34.37:225][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.31-01.34.37:226][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.31-01.34.37:455][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.03.31-01.34.37:973][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.31-01.34.38:193][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.31-01.34.38:193][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.31-01.34.38:193][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.31-01.34.38:193][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.31-01.34.38:193][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.31-01.34.38:210][  0]LogNetVersion: Koala 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2842164528)
+[2020.03.31-01.34.42:501][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.210620 seconds
+[2020.03.31-01.34.42:519][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.31-01.34.42:519][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.31-01.34.42:519][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.31-01.34.43:398][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.31-01.34.43:403][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.31-01.34.43:492][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.43:492][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.43:497][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.43:499][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.43:501][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.43:665][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.31-01.34.43:681][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.31-01.34.43:681][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.31-01.34.43:805][  0]LogOcInput: OculusInput pre-init called
+[2020.03.31-01.34.43:818][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.31-01.34.43:818][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.31-01.34.43:912][  0]LogEngine: Initializing Engine...
+[2020.03.31-01.34.43:913][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.31-01.34.43:915][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.31-01.34.44:504][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.31-01.34.44:522][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-01.34.44:531][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-01.34.44:531][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-01.34.44:531][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-01.34.44:532][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-01.34.44:550][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-01.34.44:588][  0]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-01.34.44:595][  0]LogInit: FAudioDevice initialized.
+[2020.03.31-01.34.44:596][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.31-01.34.44:694][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.31-01.34.44:700][  0]LogInit: Texture streaming: Enabled
+[2020.03.31-01.34.44:715][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.31-01.34.44:716][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A2B4D556-4C69-E8B9-AE34-E39A7DE18353}
+[2020.03.31-01.34.44:716][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.31-01.34.44:722][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.31-01.34.44:842][  0]LogInit: Transaction tracking system initialized
+[2020.03.31-01.34.44:906][  0]BlueprintLog: New page: Cargar el editor
+[2020.03.31-01.34.44:981][  0]LocalizationService: Localization service is disabled
+[2020.03.31-01.34.45:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/' took 0.01s
+[2020.03.31-01.34.45:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.31-01.34.45:491][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.31-01.34.46:660][  0]SourceControl: El control de código fuente está desactivado
+[2020.03.31-01.34.46:660][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.31-01.34.46:661][  0]LightingResults: New page: Diseñar la iluminación
+[2020.03.31-01.34.46:665][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-01.34.46:665][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.34.46:665][  0]MapCheck: New page: Revisión del mapa
+[2020.03.31-01.34.46:665][  0]LightingResults: New page: Diseñar la iluminación
+[2020.03.31-01.34.46:711][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.03.31-01.34.46:854][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-01.34.46:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.31-01.34.46:895][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.03.31-01.34.46:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.31-01.34.46:896][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.291ms to complete.
+[2020.03.31-01.34.46:896][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.235
+[2020.03.31-01.34.47:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.34.47:210][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.34.47:220][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.34.47:235][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.34.47:307][  0]LogCollectionManager: Loaded 0 collections in 0.005870 seconds
+[2020.03.31-01.34.47:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Collections/' took 0.00s
+[2020.03.31-01.34.47:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Developers/Peter/Collections/' took 0.00s
+[2020.03.31-01.34.47:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Collections/' took 0.00s
+[2020.03.31-01.34.47:345][  0]LogContentBrowser: Native class hierarchy populated in 0.0270 seconds. Added 3019 classes and 719 folders.
+[2020.03.31-01.34.47:351][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.31-01.34.47:809][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.31-01.34.47:815][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.03.31-01.34.50:173][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.31-01.34.50:176][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.31-01.34.50:235][  0]LogSlate: Took 0.051264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.31-01.34.50:395][  0]LogRenderer: Reallocating scene render targets to support 868x372 Format 10 NumSamples 1 (Frame:1).
+[2020.03.31-01.34.50:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.03.31-01.34.50:820][  0]LogLoad: (Engine Initialization) Total time: 26.15 seconds
+[2020.03.31-01.34.50:820][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.31-01.34.50:944][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.31-01.34.52:043][ 18]LogAssetRegistry: Asset discovery search completed in 14.5890 seconds
+[2020.03.31-01.34.52:048][ 18]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2020.03.31-01.34.52:073][ 18]LogSlate: Took 0.009084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.31-01.35.09:154][116]LogHotReload: New module detected: UE4Editor-Koala-0059.dll
+[2020.03.31-01.35.10:175][120]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-01.35.10:186][120]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.31-01.35.10:239][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.03.31-01.35.10:289][120]LogClass: WeaponType HotReload.
+[2020.03.31-01.35.10:297][120]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-01.35.10:300][120]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.03.31-01.35.10:409][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.03.31-01.35.10:426][120]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-01.35.10:434][120]Display: HotReload took  0.3s.
+[2020.03.31-01.35.15:314][202]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-01.35.15:341][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.35.15:341][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-01.35.15:342][202]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 13:35:15)
+[2020.03.31-01.35.15:343][202]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.31-01.35.15:344][202]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.31-01.35.15:344][202]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.35.15:351][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006902s)
+[2020.03.31-01.35.15:353][202]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-01.35.15:353][202]LogPlayLevel: PIE: World Init took: (0.002150s)
+[2020.03.31-01.35.15:354][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009467s)
+[2020.03.31-01.35.15:380][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-01.35.15:382][202]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-01.35.15:382][202]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-01.35.15:382][202]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: Channel Order:
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-01.35.15:389][202]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-01.35.15:403][202]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-01.35.15:405][202]LogInit: FAudioDevice initialized.
+[2020.03.31-01.35.15:542][202]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-01.35.15:544][202]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.03.30-19.35.15
+[2020.03.31-01.35.15:544][202]LogWorld: Bringing up level for play took: 0.001102
+[2020.03.31-01.35.15:544][202]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.03.31-01.35.15:580][202]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.03.31-01.35.15:583][202]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.548
+[2020.03.31-01.35.15:584][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.38.15:726][985]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.38.15:727][985]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.38.15:727][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.38.15:728][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.38.15:728][985]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.38.15:728][985]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.38.15:729][985]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-01.38.15:730][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.38.15:785][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-01.38.15:786][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.38.15:792][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.38.15:858][985]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.38.15:869][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.38.15:880][985]LogUObjectHash: Compacting FUObjectHashTables data took   6.98ms
+[2020.03.31-01.38.15:931][986]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.03.31-01.47.12:960][  7]LogHotReload: New module detected: UE4Editor-Koala-0062.dll
+[2020.03.31-01.47.13:992][ 11]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-01.47.14:081][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.03.31-01.47.14:122][ 11]LogClass: Could not find existing class KoalaCharacter in package /Script/Koala for HotReload, assuming new class
+[2020.03.31-01.47.14:122][ 11]LogClass: Function EquipBlueWeapon is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function EquipGreenWeapon is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function EquipRedWeapon is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function Fire is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function LookRight is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function LookUp is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function MoveForward is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function MoveRight is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function NextWeapon is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function PreviousWeapon is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function SpawnWeapons is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function Sprint is new.
+[2020.03.31-01.47.14:122][ 11]LogClass: Function StopSprinting is new.
+[2020.03.31-01.47.14:126][ 11]LogClass: WeaponType HotReload.
+[2020.03.31-01.47.14:129][ 11]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-01.47.14:295][ 11]LogHotReload: Re-instancing KoalaCharacter after hot-reload.
+[2020.03.31-01.47.14:448][ 11]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-01.47.14:452][ 11]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.03.31-01.47.14:566][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.03.31-01.47.14:583][ 11]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-01.47.14:590][ 11]Display: HotReload took  0.6s.
+[2020.03.31-01.47.19:248][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-01.47.19:273][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.47.19:273][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-01.47.19:274][ 86]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 13:47:19)
+[2020.03.31-01.47.19:274][ 86]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.47.19:281][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006754s)
+[2020.03.31-01.47.19:282][ 86]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-01.47.19:282][ 86]LogPlayLevel: PIE: World Init took: (0.001619s)
+[2020.03.31-01.47.19:282][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008612s)
+[2020.03.31-01.47.19:309][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-01.47.19:311][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-01.47.19:311][ 86]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-01.47.19:311][ 86]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-01.47.19:319][ 86]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-01.47.19:319][ 86]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-01.47.19:319][ 86]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-01.47.19:319][ 86]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-01.47.19:319][ 86]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-01.47.19:320][ 86]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-01.47.19:320][ 86]LogAudioMixer: Display: Channel Order:
+[2020.03.31-01.47.19:320][ 86]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-01.47.19:320][ 86]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-01.47.19:334][ 86]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-01.47.19:336][ 86]LogInit: FAudioDevice initialized.
+[2020.03.31-01.47.19:344][ 86]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-01.47.19:345][ 86]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.03.30-19.47.19
+[2020.03.31-01.47.19:346][ 86]LogWorld: Bringing up level for play took: 0.001116
+[2020.03.31-01.47.19:346][ 86]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.03.31-01.47.19:350][ 86]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.781
+[2020.03.31-01.47.19:351][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.10:230][108]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.10:230][108]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.10:230][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.10:231][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.52.10:231][108]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.52.10:231][108]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.10:232][108]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-01.52.10:232][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.52.10:283][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-01.52.10:283][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.10:289][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.52.10:355][108]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.10:366][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.52.10:374][108]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.03.31-01.52.10:415][109]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.31-01.52.12:614][170]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-01.52.12:671][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.12:672][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-01.52.12:672][170]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 13:52:12)
+[2020.03.31-01.52.12:672][170]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.52.12:691][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018927s)
+[2020.03.31-01.52.12:694][170]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-01.52.12:699][170]LogPlayLevel: PIE: World Init took: (0.007928s)
+[2020.03.31-01.52.12:699][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027280s)
+[2020.03.31-01.52.12:758][170]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-01.52.12:759][170]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-01.52.12:759][170]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-01.52.12:760][170]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-01.52.12:760][170]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-01.52.12:781][170]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-01.52.12:782][170]LogAudioMixer: Display: Channel Order:
+[2020.03.31-01.52.12:782][170]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-01.52.12:782][170]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-01.52.12:819][170]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-01.52.12:822][170]LogInit: FAudioDevice initialized.
+[2020.03.31-01.52.12:835][170]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-01.52.12:838][170]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.03.30-19.52.12
+[2020.03.31-01.52.12:839][170]LogWorld: Bringing up level for play took: 0.002264
+[2020.03.31-01.52.12:839][170]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.03.31-01.52.12:848][170]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.717
+[2020.03.31-01.52.12:849][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.20:217][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.20:217][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.20:217][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.20:218][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.52.20:218][347]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-01.52.20:218][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.20:218][347]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-01.52.20:219][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.52.20:267][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-01.52.20:267][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-01.52.20:273][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-01.52.20:336][347]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-01.52.20:343][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-01.52.20:350][347]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.03.31-01.52.20:392][348]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.03.31-02.00.03:657][863]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.00.03:693][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.00.03:693][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.00.03:693][863]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:00:03)
+[2020.03.31-02.00.03:694][863]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.00.03:784][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089639s)
+[2020.03.31-02.00.03:786][863]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.00.03:786][863]LogPlayLevel: PIE: World Init took: (0.002271s)
+[2020.03.31-02.00.03:786][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.092437s)
+[2020.03.31-02.00.03:817][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.00.03:818][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.00.03:818][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.00.03:819][863]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.00.03:819][863]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.00.03:833][863]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.00.03:859][863]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.00.03:862][863]LogInit: FAudioDevice initialized.
+[2020.03.31-02.00.03:873][863]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.00.03:875][863]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.03.30-20.00.03
+[2020.03.31-02.00.03:876][863]LogWorld: Bringing up level for play took: 0.001931
+[2020.03.31-02.00.03:876][863]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.03.31-02.00.03:882][863]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.249
+[2020.03.31-02.00.03:883][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.00.06:613][966]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.00.06:614][966]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.00.06:614][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.00.06:614][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.00.06:614][966]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.00.06:614][966]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.00.06:614][966]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.00.06:615][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.00.06:645][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.00.06:646][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.00.06:653][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.00.06:687][966]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.00.06:692][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.00.06:697][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.03.31-02.00.06:729][967]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.03.31-02.07.00:615][203]LogHotReload: New module detected: UE4Editor-Koala-0063.dll
+[2020.03.31-02.07.02:332][209]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.07.02:412][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.03.31-02.07.02:444][209]LogClass: Could not find existing class Weapon in package /Script/Koala for HotReload, assuming new class
+[2020.03.31-02.07.02:444][209]LogClass: Function RedWeaponFire is new.
+[2020.03.31-02.07.02:444][209]LogClass: Function WeaponFire is new.
+[2020.03.31-02.07.02:444][209]LogClass: WeaponType HotReload.
+[2020.03.31-02.07.02:447][209]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.07.02:649][209]LogHotReload: Re-instancing Weapon after hot-reload.
+[2020.03.31-02.07.03:273][209]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.07.03:277][209]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.07.03:415][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.03.31-02.07.03:436][209]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.07.03:444][209]Display: HotReload took  1.1s.
+[2020.03.31-02.07.08:986][305]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.07.09:019][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.07.09:019][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.07.09:019][305]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:07:09)
+[2020.03.31-02.07.09:019][305]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.07.09:028][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008709s)
+[2020.03.31-02.07.09:030][305]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.07.09:030][305]LogPlayLevel: PIE: World Init took: (0.002072s)
+[2020.03.31-02.07.09:030][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011021s)
+[2020.03.31-02.07.09:071][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.07.09:073][305]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.07.09:073][305]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.07.09:074][305]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.07.09:074][305]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.07.09:085][305]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.07.09:102][305]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.07.09:105][305]LogInit: FAudioDevice initialized.
+[2020.03.31-02.07.09:115][305]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.07.09:117][305]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.07.09
+[2020.03.31-02.07.09:117][305]LogWorld: Bringing up level for play took: 0.001618
+[2020.03.31-02.07.09:118][305]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.03.31-02.07.09:122][305]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.99
+[2020.03.31-02.07.09:130][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.07.28:844][ 62]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.07.28:864][ 62]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.31-02.07.28:884][ 62]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.31-02.07.28:884][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.07.28:884][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.07.28:884][ 62]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.07.28:884][ 62]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.07.28:884][ 62]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.07.28:885][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.07.28:894][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.07.28:895][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.07.28:898][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.07.28:930][ 62]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.07.28:934][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.07.28:938][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.03.31-02.07.28:961][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.03.31-02.08.19:686][250]LogHotReload: New module detected: UE4Editor-Koala-0064.dll
+[2020.03.31-02.08.21:379][256]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.08.21:459][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.03.31-02.08.21:493][256]LogClass: WeaponType HotReload.
+[2020.03.31-02.08.21:497][256]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.08.21:722][256]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.08.21:727][256]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.08.21:885][256]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.03.31-02.08.21:909][256]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.08.21:917][256]Display: HotReload took  0.5s.
+[2020.03.31-02.08.24:548][300]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.08.24:581][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.08.24:581][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.08.24:581][300]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:08:24)
+[2020.03.31-02.08.24:581][300]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.08.24:642][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061225s)
+[2020.03.31-02.08.24:643][300]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.08.24:644][300]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2020.03.31-02.08.24:644][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.063141s)
+[2020.03.31-02.08.24:670][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.03.31-02.08.24:671][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.08.24:671][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.08.24:671][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.08.24:671][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.08.24:671][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.08.24:672][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.08.24:672][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.08.24:672][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.08.24:673][300]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.08.24:673][300]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.08.24:683][300]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.08.24:700][300]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.08.24:702][300]LogInit: FAudioDevice initialized.
+[2020.03.31-02.08.24:711][300]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.08.24:712][300]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.08.24
+[2020.03.31-02.08.24:713][300]LogWorld: Bringing up level for play took: 0.001545
+[2020.03.31-02.08.24:713][300]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.03.31-02.08.24:718][300]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.587
+[2020.03.31-02.08.24:719][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.08.41:010][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.08.41:013][914]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.31-02.08.41:034][914]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.31-02.08.41:034][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.08.41:035][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.08.41:035][914]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.08.41:035][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.08.41:036][914]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.08.41:036][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.08.41:064][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.08.41:064][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.08.41:071][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.08.41:113][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.08.41:118][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.08.41:125][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.03.31-02.08.41:159][915]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.03.31-02.09.06:779][  5]LogHotReload: New module detected: UE4Editor-Koala-0065.dll
+[2020.03.31-02.09.08:134][ 10]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.09.08:237][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.03.31-02.09.08:276][ 10]LogClass: WeaponType HotReload.
+[2020.03.31-02.09.08:280][ 10]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.09.08:461][ 10]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.09.08:466][ 10]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.09.08:623][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.03.31-02.09.08:647][ 10]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.09.08:656][ 10]Display: HotReload took  0.5s.
+[2020.03.31-02.09.10:496][ 39]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.09.10:526][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.09.10:527][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.09.10:527][ 39]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:09:10)
+[2020.03.31-02.09.10:527][ 39]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.09.10:538][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010760s)
+[2020.03.31-02.09.10:539][ 39]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.09.10:540][ 39]LogPlayLevel: PIE: World Init took: (0.001608s)
+[2020.03.31-02.09.10:540][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012762s)
+[2020.03.31-02.09.10:570][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.09.10:570][ 39]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.09.10:570][ 39]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.09.10:571][ 39]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.09.10:571][ 39]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.09.10:581][ 39]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.09.10:597][ 39]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.09.10:599][ 39]LogInit: FAudioDevice initialized.
+[2020.03.31-02.09.10:611][ 39]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.09.10:613][ 39]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.09.10
+[2020.03.31-02.09.10:614][ 39]LogWorld: Bringing up level for play took: 0.001556
+[2020.03.31-02.09.10:614][ 39]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.31-02.09.10:618][ 39]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.486
+[2020.03.31-02.09.10:619][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.09.56:003][716]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.31-02.11.26:346][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.11.26:346][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.11.26:346][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.11.26:347][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.11.26:347][ 14]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.11.26:347][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.11.26:347][ 14]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.11.26:349][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.11.26:378][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.11.26:378][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.11.26:382][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.11.26:410][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.11.26:426][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.11.26:437][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.03.31-02.11.26:459][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.31-02.12.08:205][576]LogHotReload: New module detected: UE4Editor-Koala-0066.dll
+[2020.03.31-02.12.12:526][704]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.12.12:625][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.03.31-02.12.12:716][704]LogClass: Could not find existing class Bullet in package /Script/Koala for HotReload, assuming new class
+[2020.03.31-02.12.12:717][704]LogClass: Function OnHit is new.
+[2020.03.31-02.12.12:727][704]LogClass: WeaponType HotReload.
+[2020.03.31-02.12.12:741][704]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.12.13:036][704]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0009 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.12.13:040][704]Display: HotReload successful (15 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.12.13:277][704]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.03.31-02.12.13:315][704]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.12.13:330][704]Display: HotReload took  0.8s.
+[2020.03.31-02.12.24:726][ 33]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.12.25:222][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.12.25:222][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.12.25:222][ 33]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:12:25)
+[2020.03.31-02.12.25:222][ 33]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.12.25:587][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.364687s)
+[2020.03.31-02.12.25:590][ 33]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.12.25:590][ 33]LogPlayLevel: PIE: World Init took: (0.002637s)
+[2020.03.31-02.12.25:590][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.367754s)
+[2020.03.31-02.12.25:650][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.12.25:651][ 33]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.12.25:651][ 33]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.12.25:652][ 33]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.12.25:652][ 33]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.12.25:672][ 33]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.12.25:673][ 33]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.12.26:052][ 33]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.12.26:085][ 33]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.12.26:089][ 33]LogInit: FAudioDevice initialized.
+[2020.03.31-02.12.26:105][ 33]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.12.26:108][ 33]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.12.26
+[2020.03.31-02.12.26:109][ 33]LogWorld: Bringing up level for play took: 0.002167
+[2020.03.31-02.12.26:109][ 33]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.03.31-02.12.26:117][ 33]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.014
+[2020.03.31-02.12.26:117][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.13.31:051][829]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.13.31:051][829]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.13.31:052][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.13.31:053][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.13.31:053][829]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.13.31:053][829]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.13.31:054][829]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.13.31:055][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.13.31:116][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.13.31:117][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.13.31:125][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.13.31:218][829]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.13.31:226][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.13.31:233][829]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.03.31-02.13.31:289][830]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.03.31-02.15.28:611][239]LogHotReload: New module detected: UE4Editor-Koala-0067.dll
+[2020.03.31-02.15.29:642][243]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.15.29:754][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.03.31-02.15.29:787][243]LogClass: WeaponType HotReload.
+[2020.03.31-02.15.29:790][243]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.15.29:980][243]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.15.29:985][243]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.15.30:140][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2020.03.31-02.15.30:163][243]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.15.30:171][243]Display: HotReload took  0.5s.
+[2020.03.31-02.15.33:146][308]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.31-02.15.34:617][361]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.15.34:648][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.15.34:648][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.15.34:648][361]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:15:34)
+[2020.03.31-02.15.34:648][361]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.15.34:656][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007917s)
+[2020.03.31-02.15.34:658][361]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.15.34:658][361]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2020.03.31-02.15.34:658][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009781s)
+[2020.03.31-02.15.34:688][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.15.34:689][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.15.34:689][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.15.34:690][361]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.15.34:690][361]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.15.34:699][361]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.15.34:699][361]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.15.34:699][361]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.15.34:699][361]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.15.34:700][361]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.15.34:700][361]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.15.34:700][361]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.15.34:700][361]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.15.34:700][361]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.15.34:716][361]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.15.34:718][361]LogInit: FAudioDevice initialized.
+[2020.03.31-02.15.34:726][361]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.15.34:728][361]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.15.34
+[2020.03.31-02.15.34:728][361]LogWorld: Bringing up level for play took: 0.001488
+[2020.03.31-02.15.34:728][361]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.31-02.15.34:732][361]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.601
+[2020.03.31-02.15.34:733][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.16.13:547][822]Cmd: CAMERA SNAP
+[2020.03.31-02.16.13:547][822]Snapped camera to the first selected object.
+[2020.03.31-02.16.22:111][186]LogSlate: Took 0.024277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.31-02.16.27:977][373]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.16.27:977][373]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.16.27:978][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.16.27:979][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.16.27:979][373]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.16.27:980][373]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.16.27:980][373]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.16.27:981][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.16.28:027][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.16.28:027][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.16.28:034][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.16.28:099][373]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.16.28:107][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.16.28:134][373]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2020.03.31-02.16.28:191][374]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.03.31-02.16.29:141][407]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.16.29:218][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.16.29:218][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.16.29:218][407]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:16:29)
+[2020.03.31-02.16.29:219][407]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.16.29:238][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018974s)
+[2020.03.31-02.16.29:242][407]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.16.29:242][407]LogPlayLevel: PIE: World Init took: (0.004147s)
+[2020.03.31-02.16.29:242][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023547s)
+[2020.03.31-02.16.29:308][407]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.03.31-02.16.29:309][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.16.29:309][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.16.29:309][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.16.29:309][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.16.29:309][407]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.16.29:310][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.16.29:310][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.16.29:310][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.16.29:311][407]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.16.29:311][407]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.16.29:343][407]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.16.29:344][407]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.16.29:380][407]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.16.29:384][407]LogInit: FAudioDevice initialized.
+[2020.03.31-02.16.29:400][407]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.16.29:405][407]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.16.29
+[2020.03.31-02.16.29:406][407]LogWorld: Bringing up level for play took: 0.003603
+[2020.03.31-02.16.29:406][407]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.03.31-02.16.29:417][407]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.715
+[2020.03.31-02.16.29:417][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.17.32:212][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.17.32:213][236]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.31-02.17.32:243][236]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.31-02.17.32:243][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.17.32:244][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.17.32:244][236]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.17.32:278][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.17.32:278][236]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.17.32:279][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.17.32:296][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.17.32:296][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.17.32:306][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.17.32:368][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.17.32:377][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.17.32:387][236]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.03.31-02.17.32:424][237]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.03.31-02.28.12:995][179]LogHotReload: New module detected: UE4Editor-Koala-0071.dll
+[2020.03.31-02.28.14:724][185]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.28.14:786][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.03.31-02.28.14:880][185]LogClass: Could not find existing class KoalaCharacter in package /Script/Koala for HotReload, assuming new class
+[2020.03.31-02.28.14:880][185]LogClass: Function EquipBlueWeapon is new.
+[2020.03.31-02.28.14:880][185]LogClass: Function EquipGreenWeapon is new.
+[2020.03.31-02.28.14:880][185]LogClass: Function EquipRedWeapon is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function Fire is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function LookRight is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function LookUp is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function MoveForward is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function MoveRight is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function NextWeapon is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function PreviousWeapon is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function SpawnWeapons is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function Sprint is new.
+[2020.03.31-02.28.14:881][185]LogClass: Function StopSprinting is new.
+[2020.03.31-02.28.14:886][185]LogClass: WeaponType HotReload.
+[2020.03.31-02.28.14:893][185]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.28.15:103][185]LogHotReload: Re-instancing KoalaCharacter after hot-reload.
+[2020.03.31-02.28.15:241][185]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.28.15:244][185]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.28.15:362][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.03.31-02.28.15:380][185]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.28.15:388][185]Display: HotReload took  0.7s.
+[2020.03.31-02.28.17:614][230]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.28.17:643][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.28.17:643][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.28.17:643][230]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:28:17)
+[2020.03.31-02.28.17:643][230]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.28.17:696][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052518s)
+[2020.03.31-02.28.17:697][230]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.28.17:697][230]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2020.03.31-02.28.17:697][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.054094s)
+[2020.03.31-02.28.17:721][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.28.17:722][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.28.17:722][230]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.28.17:722][230]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.28.17:730][230]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.28.17:744][230]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.28.17:746][230]LogInit: FAudioDevice initialized.
+[2020.03.31-02.28.17:756][230]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.28.17:758][230]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.28.17
+[2020.03.31-02.28.17:758][230]LogWorld: Bringing up level for play took: 0.001105
+[2020.03.31-02.28.17:758][230]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.03.31-02.28.17:762][230]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.369
+[2020.03.31-02.28.17:763][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.28.18:853][271]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.19:843][310]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.20:343][330]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.21:338][368]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.21:606][378]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.21:819][386]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.22:058][395]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.22:376][407]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.22:663][418]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.22:955][429]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.23:166][437]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.23:378][445]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.23:562][452]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.28.24:308][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.28.24:308][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.28.24:308][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.28.24:308][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.28.24:308][481]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.28.24:308][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.28.24:309][481]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.28.24:309][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.28.24:338][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.28.24:338][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.28.24:341][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.28.24:369][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.28.24:374][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.28.24:378][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.03.31-02.28.24:448][483]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.03.31-02.29.09:905][646]LogHotReload: New module detected: UE4Editor-Koala-0072.dll
+[2020.03.31-02.29.10:606][649]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.29.10:686][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.03.31-02.29.10:724][649]LogClass: WeaponType HotReload.
+[2020.03.31-02.29.10:735][649]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.29.10:739][649]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.29.10:871][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.03.31-02.29.10:895][649]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.29.10:903][649]Display: HotReload took  0.3s.
+[2020.03.31-02.29.12:793][658]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.31-02.29.13:291][664]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.29.13:315][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.29.13:315][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.29.13:315][664]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:29:13)
+[2020.03.31-02.29.13:316][664]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.29.13:324][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008074s)
+[2020.03.31-02.29.13:325][664]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.29.13:325][664]LogPlayLevel: PIE: World Init took: (0.001297s)
+[2020.03.31-02.29.13:326][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009657s)
+[2020.03.31-02.29.13:354][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.29.13:355][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.29.13:355][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.29.13:356][664]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.29.13:356][664]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.29.13:364][664]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.29.13:402][664]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.29.13:415][664]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.29.13:419][664]LogInit: FAudioDevice initialized.
+[2020.03.31-02.29.13:441][664]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.29.13:444][664]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.29.13
+[2020.03.31-02.29.13:445][664]LogWorld: Bringing up level for play took: 0.002035
+[2020.03.31-02.29.13:445][664]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.03.31-02.29.13:450][664]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.682
+[2020.03.31-02.29.13:450][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.29.14:553][705]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.14:927][720]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.15:150][729]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.15:546][745]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.15:798][755]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.15:995][763]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.22:170][ 10]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.22:401][ 19]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.22:635][ 28]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.22:942][ 40]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.23:378][ 57]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.23:775][ 73]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.24:046][ 84]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.24:269][ 93]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.24:640][108]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.24:813][115]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.24:987][122]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.25:161][129]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.25:311][135]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.25:487][142]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.29.25:861][157]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.29.25:861][157]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.29.25:862][157]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.29.25:862][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.29.25:862][157]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.29.25:862][157]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.29.25:862][157]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.29.25:863][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.29.25:891][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.29.25:891][157]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.29.25:894][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.29.25:924][157]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.29.25:928][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.29.25:931][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.03.31-02.29.26:002][159]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.03.31-02.30.40:720][436]LogHotReload: New module detected: UE4Editor-Koala-0073.dll
+[2020.03.31-02.30.41:766][440]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.30.41:840][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.03.31-02.30.41:886][440]LogClass: WeaponType HotReload.
+[2020.03.31-02.30.41:895][440]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.30.41:899][440]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.30.42:011][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.03.31-02.30.42:030][440]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.30.42:038][440]Display: HotReload took  0.3s.
+[2020.03.31-02.30.43:742][477]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.30.43:766][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.30.43:766][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.30.43:767][477]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:30:43)
+[2020.03.31-02.30.43:767][477]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.30.43:775][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008118s)
+[2020.03.31-02.30.43:776][477]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.30.43:812][477]LogPlayLevel: PIE: World Init took: (0.037105s)
+[2020.03.31-02.30.43:812][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.045579s)
+[2020.03.31-02.30.43:861][477]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.30.43:862][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.30.43:862][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.30.43:863][477]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.30.43:863][477]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.30.43:872][477]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.30.43:886][477]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.30.43:889][477]LogInit: FAudioDevice initialized.
+[2020.03.31-02.30.43:900][477]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.30.43:901][477]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.30.43
+[2020.03.31-02.30.43:902][477]LogWorld: Bringing up level for play took: 0.001343
+[2020.03.31-02.30.43:902][477]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.03.31-02.30.43:906][477]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.226
+[2020.03.31-02.30.43:906][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.30.44:741][508]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.44:990][518]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.45:215][527]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.45:414][535]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.45:589][542]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.45:797][550]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.46:260][568]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.46:491][577]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.46:726][586]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.46:984][596]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.47:114][601]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.03.31-02.30.48:925][671]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.30.48:925][671]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.30.48:925][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.30.48:926][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.30.48:926][671]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.30.48:926][671]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.30.48:926][671]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.30.48:926][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.30.48:955][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.30.48:955][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.30.48:958][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.30.48:986][671]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.30.48:990][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.30.48:994][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.03.31-02.30.49:061][673]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.03.31-02.32.28:580][411]LogHotReload: New module detected: UE4Editor-Koala-0074.dll
+[2020.03.31-02.32.29:618][415]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.32.29:692][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.03.31-02.32.29:716][415]LogClass: Could not find existing class KoalaCharacter in package /Script/Koala for HotReload, assuming new class
+[2020.03.31-02.32.29:716][415]LogClass: Function EquipBlueWeapon is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function EquipGreenWeapon is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function EquipRedWeapon is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function Fire is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function LookRight is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function LookUp is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function MoveForward is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function MoveRight is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function NextWeapon is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function PreviousWeapon is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function SpawnWeapons is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function Sprint is new.
+[2020.03.31-02.32.29:716][415]LogClass: Function StopSprinting is new.
+[2020.03.31-02.32.29:719][415]LogClass: WeaponType HotReload.
+[2020.03.31-02.32.29:728][415]LogHotReload: Re-instancing KoalaCharacter after hot-reload.
+[2020.03.31-02.32.29:870][415]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.32.29:873][415]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.32.29:988][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.03.31-02.32.30:006][415]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.32.30:014][415]Display: HotReload took  0.4s.
+[2020.03.31-02.32.32:026][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.03.31-02.32.32:261][421]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.31-02.32.33:026][448]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.32.33:050][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.32.33:050][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.32.33:050][448]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:32:33)
+[2020.03.31-02.32.33:051][448]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.32.33:059][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008219s)
+[2020.03.31-02.32.33:061][448]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.32.33:061][448]LogPlayLevel: PIE: World Init took: (0.002217s)
+[2020.03.31-02.32.33:061][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010651s)
+[2020.03.31-02.32.33:089][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.32.33:090][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.32.33:090][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.32.33:091][448]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.32.33:091][448]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.32.33:098][448]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.32.33:099][448]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.32.33:112][448]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.32.33:114][448]LogInit: FAudioDevice initialized.
+[2020.03.31-02.32.33:126][448]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.32.33:128][448]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.32.33
+[2020.03.31-02.32.33:128][448]LogWorld: Bringing up level for play took: 0.001448
+[2020.03.31-02.32.33:129][448]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.03.31-02.32.33:133][448]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.001
+[2020.03.31-02.32.33:133][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.32.54:745][736]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.31-02.32.57:371][913]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.31-02.32.57:886][929]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.31-02.33.37:227][363]Cmd: SELECT NONE
+[2020.03.31-02.33.39:250][427]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.33.39:251][427]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.33.39:251][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.33.39:252][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.33.39:252][427]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.33.39:252][427]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.33.39:252][427]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.33.39:254][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.33.39:286][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.33.39:287][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.33.39:293][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.33.39:350][427]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.33.39:358][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.33.39:386][427]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.03.31-02.33.39:427][428]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.03.31-02.38.04:932][604]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.31-02.38.04:957][604]LogStaticMesh: Generando la malla estática Floor_400x400...
+[2020.03.31-02.38.05:015][604]LogStaticMesh: Built static mesh [0.06s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.03.31-02.38.07:831][604]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2020.03.31-02.38.10:332][604]LogAIModule: Creating AISystem for world StarterMap
+[2020.03.31-02.38.11:636][604]LogObjectTools: Deleting 3 worlds: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default, /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting, /Game/StarterContent/Maps/StarterMap.StarterMap
+[2020.03.31-02.38.11:636][604]LogObjectTools: Currently 6 active worlds: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4
+[2020.03.31-02.38.13:848][604]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.03.31-02.38.21:935][795]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.03.31-02.38.26:219][795]LogSlate: Window 'Escoger clase padre' being destroyed
+[2020.03.31-02.38.33:860][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bullet_BP.Bullet_BP
+[2020.03.31-02.38.34:380][947]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.03.31-02.38.36:188][947]LogRenderer: Reallocating scene render targets to support 868x460 Format 10 NumSamples 1 (Frame:1).
+[2020.03.31-02.38.38:340][997]LogSlate: Took 0.012579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.31-02.39.22:854][891]BlueprintLog: New page: Compilar Bullet_BP
+[2020.03.31-02.39.23:397][891]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2020.03.31-02.39.24:157][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bullet_BP" FILE="../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Bullet_BP.uasset" SILENT=true
+[2020.03.31-02.39.24:227][903]LogSavePackage: Moving '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Saved/Bullet_BPA4FE92BD4237BE99A71B7AA2B5747678.tmp' to '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Bullet_BP.uasset'
+[2020.03.31-02.39.24:272][903]AssetCheck: New page: Asset Save: Bullet_BP
+[2020.03.31-02.39.24:272][903]LogContentValidation: Display: Validating Blueprint /Game/Bullet_BP.Bullet_BP
+[2020.03.31-02.39.26:813][978]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.39.26:862][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.39.26:863][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.39.26:863][978]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:39:26)
+[2020.03.31-02.39.26:863][978]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.39.26:874][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011187s)
+[2020.03.31-02.39.26:876][978]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.39.26:877][978]LogPlayLevel: PIE: World Init took: (0.002418s)
+[2020.03.31-02.39.26:877][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013867s)
+[2020.03.31-02.39.26:931][978]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.39.26:935][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.39.26:935][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.39.26:936][978]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.39.26:936][978]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.39.26:947][978]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.39.26:966][978]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.39.26:969][978]LogInit: FAudioDevice initialized.
+[2020.03.31-02.39.26:979][978]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.39.26:981][978]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.39.26
+[2020.03.31-02.39.26:981][978]LogWorld: Bringing up level for play took: 0.001531
+[2020.03.31-02.39.26:982][978]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.03.31-02.39.26:987][978]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.855
+[2020.03.31-02.39.26:987][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.39.28:832][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.39.28:832][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.39.28:832][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.39.28:866][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.39.28:866][ 43]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.39.28:866][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.39.28:866][ 43]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.39.28:867][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.39.28:877][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.39.28:878][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.39.28:883][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.39.28:938][ 43]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.39.28:942][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.39.28:949][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2020.03.31-02.39.28:977][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.03.31-02.39.54:240][411]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/RedWeapon.RedWeapon
+[2020.03.31-02.40.07:107][802]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.31-02.40.10:392][899]BlueprintLog: New page: Compilar RedWeapon
+[2020.03.31-02.40.11:241][899]LogUObjectHash: Compacting FUObjectHashTables data took  12.67ms
+[2020.03.31-02.40.11:440][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/RedWeapon" FILE="../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Weapons/RedWeapon.uasset" SILENT=true
+[2020.03.31-02.40.11:585][899]LogSavePackage: Moving '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Saved/RedWeaponCC5BB2924D00AA5B04F84FA9561146AE.tmp' to '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Weapons/RedWeapon.uasset'
+[2020.03.31-02.40.11:631][899]AssetCheck: New page: Asset Save: RedWeapon
+[2020.03.31-02.40.11:631][899]LogContentValidation: Display: Validating Blueprint /Game/Weapons/RedWeapon.RedWeapon
+[2020.03.31-02.40.15:512][992]LogSlate: Window 'RedWeapon' being destroyed
+[2020.03.31-02.40.15:549][992]LogSlate: Window 'RedWeapon' being destroyed
+[2020.03.31-02.40.15:683][992]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.40.15:683][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.40.15:830][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.31-02.40.15:830][992]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.40.15:831][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.40.16:686][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.40.16:749][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.40.16:749][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.40.16:750][ 21]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:40:16)
+[2020.03.31-02.40.16:750][ 21]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.40.16:767][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016549s)
+[2020.03.31-02.40.16:769][ 21]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.40.16:769][ 21]LogPlayLevel: PIE: World Init took: (0.002638s)
+[2020.03.31-02.40.16:769][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019581s)
+[2020.03.31-02.40.16:888][ 21]LogUObjectHash: Compacting FUObjectHashTables data took  15.31ms
+[2020.03.31-02.40.16:891][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.40.16:892][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.40.16:892][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.40.16:893][ 21]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.40.16:893][ 21]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.40.16:915][ 21]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.40.16:916][ 21]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.40.16:948][ 21]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.40.16:952][ 21]LogInit: FAudioDevice initialized.
+[2020.03.31-02.40.16:964][ 21]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.40.16:966][ 21]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.40.16
+[2020.03.31-02.40.16:967][ 21]LogWorld: Bringing up level for play took: 0.002034
+[2020.03.31-02.40.16:967][ 21]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.03.31-02.40.16:976][ 21]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.844
+[2020.03.31-02.40.16:976][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.40.28:790][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.40.28:790][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.40.28:790][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.40.28:791][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.40.28:791][392]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.40.28:792][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.40.28:792][392]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.40.28:794][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.40.28:841][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.40.28:841][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.40.28:850][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.40.28:935][392]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.40.28:942][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.40.28:953][392]LogUObjectHash: Compacting FUObjectHashTables data took   8.98ms
+[2020.03.31-02.40.29:001][393]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.03.31-02.41.13:220][532]LogHotReload: New module detected: UE4Editor-Koala-0075.dll
+[2020.03.31-02.41.14:581][537]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.41.14:698][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.03.31-02.41.14:749][537]LogClass: WeaponType HotReload.
+[2020.03.31-02.41.14:754][537]LogHotReload: Re-instancing Bullet after hot-reload.
+[2020.03.31-02.41.15:788][537]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.03.31-02.41.15:795][537]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2020.03.31-02.41.16:064][537]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.03.31-02.41.16:180][537]LogContentBrowser: Native class hierarchy populated in 0.0294 seconds. Added 3021 classes and 722 folders.
+[2020.03.31-02.41.16:193][537]Display: HotReload took  1.6s.
+[2020.03.31-02.41.19:495][588]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.31-02.41.19:521][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.41.19:521][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.31-02.41.19:521][588]PIE: New page: Sesión PIE (reproducción en el editor): Minimal_Default (30 mar. 2020 14:41:19)
+[2020.03.31-02.41.19:522][588]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.41.19:529][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007235s)
+[2020.03.31-02.41.19:530][588]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.31-02.41.19:530][588]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2020.03.31-02.41.19:530][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008699s)
+[2020.03.31-02.41.19:630][588]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.03.31-02.41.19:631][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.31-02.41.19:631][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.31-02.41.19:631][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.31-02.41.19:631][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.31-02.41.19:632][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.31-02.41.19:632][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.31-02.41.19:632][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.31-02.41.19:632][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.31-02.41.19:632][588]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.31-02.41.19:632][588]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Is Default: Yes
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: Channel Order:
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.31-02.41.19:640][588]LogAudioMixer: Display: 1: FrontRight
+[2020.03.31-02.41.19:653][588]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.03.31-02.41.19:655][588]LogInit: FAudioDevice initialized.
+[2020.03.31-02.41.19:663][588]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.03.31-02.41.19:664][588]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2020.03.30-20.41.19
+[2020.03.31-02.41.19:664][588]LogWorld: Bringing up level for play took: 0.001001
+[2020.03.31-02.41.19:664][588]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.03.31-02.41.19:668][588]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.463
+[2020.03.31-02.41.19:669][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.41.35:274][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.41.35:274][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.41.35:274][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.41.35:275][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.41.35:275][182]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.03.31-02.41.35:275][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.41.35:275][182]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.31-02.41.35:276][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.41.35:304][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.31-02.41.35:305][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.03.31-02.41.35:311][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.31-02.41.35:362][182]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.31-02.41.35:367][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.31-02.41.35:376][182]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2020.03.31-02.41.35:406][183]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.03.31-02.42.44:738][401]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.03.31-02.43.21:046][520]LogHotReload: New module detected: UE4Editor-Koala-0076.dll
+[2020.03.31-02.43.22:073][524]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.31-02.43.22:157][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.03.31-02.43.22:191][524]LogClass: WeaponType HotReload.

@@ -1,0 +1,5 @@
+C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Definitions.Koala.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala/Weapon.h
+C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\Weapon.generated.h

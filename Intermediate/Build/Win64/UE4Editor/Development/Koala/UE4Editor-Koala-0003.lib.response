@@ -1,0 +1,30 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Koala-0003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\KoalaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Bullet.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\CombatLocation.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Koala.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\KoalaCharacter.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\KoalaGameModeBase.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Potato.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\PotatoController.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\PotatoSpawnPoint.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Weapon.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Bullet.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\CombatLocation.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Koala.init.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\KoalaCharacter.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\KoalaGameModeBase.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Potato.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\PotatoController.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\PotatoSpawnPoint.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Weapon.gen.cpp.obj"
+"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Default.rc2.res"
+/OUT:"C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0003.lib"
+/INCLUDE:IMPLEMENT_MODULE_Koala

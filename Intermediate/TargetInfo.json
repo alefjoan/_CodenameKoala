@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Koala",
+			"Path": "C:\\Users\\Peter\\Documents\\Unreal Projects\\Koala\\Source\\Koala.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KoalaEditor",
+			"Path": "C:\\Users\\Peter\\Documents\\Unreal Projects\\Koala\\Source\\KoalaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

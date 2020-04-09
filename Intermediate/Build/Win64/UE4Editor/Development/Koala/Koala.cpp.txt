@@ -1,0 +1,2 @@
+C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Definitions.Koala.h
+C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\Koala.h
