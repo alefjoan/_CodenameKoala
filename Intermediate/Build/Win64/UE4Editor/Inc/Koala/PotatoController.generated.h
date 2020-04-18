@@ -15,8 +15,16 @@ struct FAIStimulus;
 #endif
 #define KOALA_PotatoController_generated_h
 
-#define Koala_Source_Koala_PotatoController_h_26_SPARSE_DATA
-#define Koala_Source_Koala_PotatoController_h_26_RPC_WRAPPERS \
+#define Koala_Source_Koala_PotatoController_h_25_SPARSE_DATA
+#define Koala_Source_Koala_PotatoController_h_25_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPotatoDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PotatoDeath(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execForgetDamageTaken) \
 	{ \
@@ -101,7 +109,15 @@ struct FAIStimulus;
 	}
 
 
-#define Koala_Source_Koala_PotatoController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Koala_Source_Koala_PotatoController_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPotatoDeath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PotatoDeath(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execForgetDamageTaken) \
 	{ \
@@ -186,7 +202,7 @@ struct FAIStimulus;
 	}
 
 
-#define Koala_Source_Koala_PotatoController_h_26_INCLASS_NO_PURE_DECLS \
+#define Koala_Source_Koala_PotatoController_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPotatoController(); \
 	friend struct Z_Construct_UClass_APotatoController_Statics; \
@@ -195,7 +211,7 @@ public: \
 	DECLARE_SERIALIZER(APotatoController)
 
 
-#define Koala_Source_Koala_PotatoController_h_26_INCLASS \
+#define Koala_Source_Koala_PotatoController_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesAPotatoController(); \
 	friend struct Z_Construct_UClass_APotatoController_Statics; \
@@ -204,7 +220,7 @@ public: \
 	DECLARE_SERIALIZER(APotatoController)
 
 
-#define Koala_Source_Koala_PotatoController_h_26_STANDARD_CONSTRUCTORS \
+#define Koala_Source_Koala_PotatoController_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APotatoController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APotatoController) \
@@ -217,7 +233,7 @@ private: \
 public:
 
 
-#define Koala_Source_Koala_PotatoController_h_26_ENHANCED_CONSTRUCTORS \
+#define Koala_Source_Koala_PotatoController_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APotatoController(APotatoController&&); \
@@ -228,31 +244,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APotatoController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APotatoController)
 
 
-#define Koala_Source_Koala_PotatoController_h_26_PRIVATE_PROPERTY_OFFSET \
+#define Koala_Source_Koala_PotatoController_h_25_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SightConfig() { return STRUCT_OFFSET(APotatoController, SightConfig); }
 
 
-#define Koala_Source_Koala_PotatoController_h_23_PROLOG
-#define Koala_Source_Koala_PotatoController_h_26_GENERATED_BODY_LEGACY \
+#define Koala_Source_Koala_PotatoController_h_22_PROLOG
+#define Koala_Source_Koala_PotatoController_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Koala_Source_Koala_PotatoController_h_26_PRIVATE_PROPERTY_OFFSET \
-	Koala_Source_Koala_PotatoController_h_26_SPARSE_DATA \
-	Koala_Source_Koala_PotatoController_h_26_RPC_WRAPPERS \
-	Koala_Source_Koala_PotatoController_h_26_INCLASS \
-	Koala_Source_Koala_PotatoController_h_26_STANDARD_CONSTRUCTORS \
+	Koala_Source_Koala_PotatoController_h_25_PRIVATE_PROPERTY_OFFSET \
+	Koala_Source_Koala_PotatoController_h_25_SPARSE_DATA \
+	Koala_Source_Koala_PotatoController_h_25_RPC_WRAPPERS \
+	Koala_Source_Koala_PotatoController_h_25_INCLASS \
+	Koala_Source_Koala_PotatoController_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Koala_Source_Koala_PotatoController_h_26_GENERATED_BODY \
+#define Koala_Source_Koala_PotatoController_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Koala_Source_Koala_PotatoController_h_26_PRIVATE_PROPERTY_OFFSET \
-	Koala_Source_Koala_PotatoController_h_26_SPARSE_DATA \
-	Koala_Source_Koala_PotatoController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	Koala_Source_Koala_PotatoController_h_26_INCLASS_NO_PURE_DECLS \
-	Koala_Source_Koala_PotatoController_h_26_ENHANCED_CONSTRUCTORS \
+	Koala_Source_Koala_PotatoController_h_25_PRIVATE_PROPERTY_OFFSET \
+	Koala_Source_Koala_PotatoController_h_25_SPARSE_DATA \
+	Koala_Source_Koala_PotatoController_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	Koala_Source_Koala_PotatoController_h_25_INCLASS_NO_PURE_DECLS \
+	Koala_Source_Koala_PotatoController_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

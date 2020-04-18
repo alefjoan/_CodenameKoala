@@ -1,0 +1,926 @@
+﻿Log file open, 04/16/20 19:43:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Koala
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169589
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-10570792
+LogInit: Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU:        Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Dec  6 2019 02:05:13
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.17-00.43.57:221][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.17-00.43.57:221][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.17-00.43.57:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:221][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.17-00.43.57:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:221][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.17-00.43.57:221][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.17-00.43.57:222][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.17-00.43.57:223][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.17-00.43.57:223][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.17-00.43.57:223][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:223][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:226][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:226][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.17-00.43.57:226][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.17-00.43.57:226][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:226][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.17-00.43.57:227][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.17-00.43.57:228][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.17-00.43.57:229][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.17-00.43.57:229][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.17-00.43.57:229][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.17-00.43.57:243][  0]LogHAL: Display: Platform has ~ 8 GB [8488001536 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.17-00.43.57:243][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.17-00.43.57:243][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:243][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.17-00.43.57:243][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.17-00.43.57:243][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.17-00.43.57:244][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.17-00.43.57:245][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.17-00.43.57:246][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.17-00.43.57:246][  0]LogInit: Computer: DESKTOP-S7JHR63
+[2020.04.17-00.43.57:246][  0]LogInit: User: Peter
+[2020.04.17-00.43.57:247][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.04.17-00.43.57:247][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.17-00.43.57:247][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.04.17-00.43.57:247][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.17-00.43.57:247][  0]LogMemory: Process Physical Memory: 105.35 MB used, 105.36 MB peak
+[2020.04.17-00.43.57:247][  0]LogMemory: Process Virtual Memory: 99.57 MB used, 99.57 MB peak
+[2020.04.17-00.43.57:247][  0]LogMemory: Physical Memory: 4374.38 MB used,  3720.41 MB free, 8094.79 MB total
+[2020.04.17-00.43.57:247][  0]LogMemory: Virtual Memory: 5117.10 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.04.17-00.43.57:251][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.17-00.43.57:287][  0]LogInit: Using OS detected language (es-MX).
+[2020.04.17-00.43.57:287][  0]LogInit: Using OS detected locale (es-MX).
+[2020.04.17-00.43.57:289][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/es-MX/Editor.locres' could not be opened for reading!
+[2020.04.17-00.43.57:289][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/es-MX/EditorTutorials.locres' could not be opened for reading!
+[2020.04.17-00.43.57:289][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/es-MX/Keywords.locres' could not be opened for reading!
+[2020.04.17-00.43.57:290][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/es-MX/Category.locres' could not be opened for reading!
+[2020.04.17-00.43.57:290][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/es-MX/ToolTips.locres' could not be opened for reading!
+[2020.04.17-00.43.57:290][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/es-MX/PropertyNames.locres' could not be opened for reading!
+[2020.04.17-00.43.57:290][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/es-MX/Engine.locres' could not be opened for reading!
+[2020.04.17-00.43.57:291][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/es-MX/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.04.17-00.43.57:291][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/es-MX/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.04.17-00.43.57:298][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/es-MX/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.04.17-00.43.57:519][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.17-00.43.57:634][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.17-00.43.57:634][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.17-00.44.02:553][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.17-00.44.02:553][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.17-00.44.02:553][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.17-00.44.02:553][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.17-00.44.02:649][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5200M' (Feature Level 11_0)
+[2020.04.17-00.44.02:649][  0]LogD3D11RHI:       979/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.17-00.44.02:660][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2020.04.17-00.44.02:660][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.17-00.44.02:665][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.17-00.44.02:665][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.17-00.44.02:665][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.17-00.44.02:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.17-00.44.02:707][  0]LogD3D11RHI:     GPU DeviceId: 0xdfc (for the marketing name, search the web for "GPU Device Id")
+[2020.04.17-00.44.02:707][  0]LogWindows: EnumDisplayDevices:
+[2020.04.17-00.44.02:707][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2020.04.17-00.44.02:708][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.04.17-00.44.02:708][  0]LogWindows:    2. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.04.17-00.44.02:708][  0]LogWindows:    3. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.04.17-00.44.02:709][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2020.04.17-00.44.02:709][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5200M
+[2020.04.17-00.44.02:709][  0]LogD3D11RHI:   Driver Version: 387.95 (internal:23.21.13.8795, unified:387.95)
+[2020.04.17-00.44.02:709][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2020.04.17-00.44.02:709][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2020.04.17-00.44.02:813][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.04.17-00.44.02:813][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.04.17-00.44.02:813][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.17-00.44.02:829][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.17-00.44.03:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.17-00.44.03:658][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.17-00.44.03:705][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.17-00.44.03:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.17-00.44.03:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.17-00.44.03:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.17-00.44.03:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.17-00.44.03:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.17-00.44.03:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.17-00.44.03:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.17-00.44.03:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.17-00.44.03:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.17-00.44.03:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.17-00.44.03:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.17-00.44.03:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.17-00.44.03:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.17-00.44.03:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.17-00.44.03:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.17-00.44.03:959][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.17-00.44.03:964][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.17-00.44.04:017][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Intermediate/Shaders/WorkingDirectory/8444/).
+[2020.04.17-00.44.04:018][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Peter/AppData/Local/Temp/UnrealShaderWorkingDir/ED18CA7E487F5424BB81078700DA4843/'.
+[2020.04.17-00.44.04:018][  0]LogXGEController: Cleaning working directory: C:/Users/Peter/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.17-00.44.04:019][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.17-00.44.04:019][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.17-00.44.04:019][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.17-00.44.09:004][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: Loaded boot cache 0.32s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.17-00.44.09:325][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.17-00.44.09:342][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.17-00.44.09:343][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.17-00.44.09:343][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.17-00.44.09:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Peter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.17-00.44.09:345][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.17-00.44.09:345][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.17-00.44.09:402][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.17-00.44.09:408][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.17-00.44.09:409][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.17-00.44.09:610][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
+[2020.04.17-00.44.10:287][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.17-00.44.10:573][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.17-00.44.10:573][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.17-00.44.10:573][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.17-00.44.10:573][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.17-00.44.10:573][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.17-00.44.10:593][  0]LogNetVersion: Koala 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2842164528)
+[2020.04.17-00.44.15:430][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.216242 seconds
+[2020.04.17-00.44.15:444][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.17-00.44.15:444][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.17-00.44.15:444][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.17-00.44.16:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.17-00.44.16:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.17-00.44.16:697][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.16:698][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.16:703][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.16:706][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.16:708][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.16:912][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.17-00.44.16:930][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.17-00.44.16:931][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.17-00.44.17:105][  0]LogOcInput: OculusInput pre-init called
+[2020.04.17-00.44.17:169][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.17-00.44.17:169][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.17-00.44.17:321][  0]LogEngine: Initializing Engine...
+[2020.04.17-00.44.17:323][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.17-00.44.17:324][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.17-00.44.18:005][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.17-00.44.18:068][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-00.44.18:071][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-00.44.18:071][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-00.44.18:071][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-00.44.18:097][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-00.44.18:148][  0]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.17-00.44.18:156][  0]LogInit: FAudioDevice initialized.
+[2020.04.17-00.44.18:156][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.17-00.44.18:315][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.17-00.44.18:322][  0]LogInit: Texture streaming: Enabled
+[2020.04.17-00.44.18:341][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.17-00.44.18:342][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4738A5D9-4E25-F0C1-B542-1CA98555F165}
+[2020.04.17-00.44.18:342][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.17-00.44.18:347][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.17-00.44.18:496][  0]LogInit: Transaction tracking system initialized
+[2020.04.17-00.44.18:542][  0]BlueprintLog: New page: Cargar el editor
+[2020.04.17-00.44.18:617][  0]LocalizationService: Localization service is disabled
+[2020.04.17-00.44.19:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/' took 0.01s
+[2020.04.17-00.44.19:351][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.17-00.44.19:351][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.17-00.44.20:693][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.17-00.44.20:693][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.17-00.44.20:693][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.17-00.44.20:696][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.44.20:696][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.44.20:696][  0]MapCheck: New page: Revisión del mapa
+[2020.04.17-00.44.20:696][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.17-00.44.20:732][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.04.17-00.44.20:817][  0]LogAIModule: Creating AISystem for world Menu
+[2020.04.17-00.44.20:818][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.17-00.44.20:862][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.04.17-00.44.20:862][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.17-00.44.20:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.288ms to complete.
+[2020.04.17-00.44.20:863][  0]LogFileHelpers: Loading map 'Menu' took 0.170
+[2020.04.17-00.44.21:119][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.44.21:134][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.44.21:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.44.21:164][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.44.21:232][  0]LogCollectionManager: Loaded 0 collections in 0.003123 seconds
+[2020.04.17-00.44.21:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Collections/' took 0.00s
+[2020.04.17-00.44.21:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Developers/Peter/Collections/' took 0.00s
+[2020.04.17-00.44.21:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Collections/' took 0.00s
+[2020.04.17-00.44.21:258][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 3023 classes and 719 folders.
+[2020.04.17-00.44.21:266][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.04.17-00.44.21:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.17-00.44.21:786][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.04.17-00.44.24:380][  0]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.17-00.44.24:384][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.17-00.44.24:442][  0]LogSlate: Took 0.048966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.17-00.44.24:859][  0]LogRenderer: Reallocating scene render targets to support 840x372 Format 10 NumSamples 1 (Frame:1).
+[2020.04.17-00.44.25:013][  0]LogSlate: Took 0.065222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-00.44.25:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.04.17-00.44.25:201][  0]LogLoad: (Engine Initialization) Total time: 30.94 seconds
+[2020.04.17-00.44.25:201][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.17-00.44.25:291][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.17-00.44.26:569][ 21]LogAssetRegistry: Asset discovery search completed in 16.9603 seconds
+[2020.04.17-00.44.26:576][ 21]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2020.04.17-00.44.32:344][353]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.17-00.44.32:375][353]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Seeds/RedSeed.RedSeed
+[2020.04.17-00.44.32:964][353]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 121 classes and 0 folders.
+[2020.04.17-00.44.34:971][353]LogSlate: Took 0.011428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.17-00.44.45:807][861]LogSlate: Window 'RedSeed' being destroyed
+[2020.04.17-00.44.45:815][861]LogSlate: Window 'RedSeed' being destroyed
+[2020.04.17-00.44.45:816][861]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.44.45:816][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.45.53:627][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:627][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:627][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:628][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:628][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:628][476]LogLinker: Error: HOTRELOADED_KoalaCharacter_0 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/HUD/KoalaHUD.uasset)
+[2020.04.17-00.45.53:834][476]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/KoalaCharacter/KoalaCharacter_BP.KoalaCharacter_BP
+[2020.04.17-00.45.54:907][477]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.17-00.45.59:554][686]BlueprintLog: New page: Compilar KoalaCharacter_BP
+[2020.04.17-00.45.59:983][686]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2020.04.17-00.46.00:562][691]LogSavePackage: Moving '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Saved/KoalaCharacter_BPFB67801040AF31A89BD30EA0D40D1211.tmp' to '../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Blueprints/KoalaCharacter/KoalaCharacter_BP.uasset'
+[2020.04.17-00.46.00:589][691]AssetCheck: New page: Asset Save: KoalaCharacter_BP
+[2020.04.17-00.46.00:589][691]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/KoalaCharacter/KoalaCharacter_BP.KoalaCharacter_BP
+[2020.04.17-00.46.02:160][775]LogSlate: Window 'KoalaCharacter_BP' being destroyed
+[2020.04.17-00.46.02:166][775]LogSlate: Window 'KoalaCharacter_BP' being destroyed
+[2020.04.17-00.46.02:205][775]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.46.02:205][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.46.03:077][822]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.17-00.46.03:110][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.46.03:110][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.17-00.46.03:111][822]PIE: New page: Sesión PIE (reproducción en el editor): Menu (16 abr. 2020 14:46:03)
+[2020.04.17-00.46.03:112][822]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.17-00.46.03:113][822]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.17-00.46.03:114][822]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.46.03:117][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002853s)
+[2020.04.17-00.46.03:119][822]LogAIModule: Creating AISystem for world Menu
+[2020.04.17-00.46.03:119][822]LogPlayLevel: PIE: World Init took: (0.002288s)
+[2020.04.17-00.46.03:119][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.005713s)
+[2020.04.17-00.46.03:171][822]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2020.04.17-00.46.03:173][822]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-00.46.03:174][822]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-00.46.03:174][822]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-00.46.03:175][822]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-00.46.03:175][822]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: Channel Order:
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-00.46.03:192][822]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-00.46.03:213][822]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.17-00.46.03:215][822]LogInit: FAudioDevice initialized.
+[2020.04.17-00.46.03:238][822]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.46.03:240][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.04.16-19.46.03
+[2020.04.17-00.46.03:240][822]LogWorld: Bringing up level for play took: 0.000613
+[2020.04.17-00.46.03:241][822]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.04.17-00.46.03:303][822]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.04.17-00.46.03:308][822]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.46.03:311][822]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_Menu 0.225
+[2020.04.17-00.46.03:311][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.46.04:264][834]LogNet: Browse: /Game/Maps/Intro
+[2020.04.17-00.46.04:264][834]LogLoad: LoadMap: /Game/Maps/Intro
+[2020.04.17-00.46.04:264][834]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.46.04:265][834]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.46.04:265][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.46.04:266][834]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.04:446][834]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2020.04.17-00.46.04:739][834]LogAIModule: Creating AISystem for world Intro
+[2020.04.17-00.46.04:739][834]LogLoad: Game class is 'GameModeBase'
+[2020.04.17-00.46.04:746][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Intro.Intro up for play (max tick rate 60) at 2020.04.16-19.46.04
+[2020.04.17-00.46.04:747][834]LogWorld: Bringing up level for play took: 0.006060
+[2020.04.17-00.46.04:752][834]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.46.04:752][834]LogLoad: Took 0.488304 seconds to LoadMap(/Game/Maps/Intro)
+[2020.04.17-00.46.07:270][934]LogNet: Browse: /Game/Maps/MainMap
+[2020.04.17-00.46.07:271][934]LogLoad: LoadMap: /Game/Maps/MainMap
+[2020.04.17-00.46.07:271][934]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Intro
+[2020.04.17-00.46.07:272][934]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.46.07:272][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.46.07:272][934]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.07:354][934]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.04.17-00.46.07:550][934]LogAIModule: Creating AISystem for world MainMap
+[2020.04.17-00.46.07:551][934]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.46.07:555][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.04.16-19.46.07
+[2020.04.17-00.46.07:556][934]LogWorld: Bringing up level for play took: 0.004479
+[2020.04.17-00.46.07:566][934]LogLoad: Took 0.295286 seconds to LoadMap(/Game/Maps/MainMap)
+[2020.04.17-00.46.15:690][235]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.15:690][235]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.15:690][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.46.15:691][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.46.15:691][235]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2020.04.17-00.46.15:691][235]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.15:691][235]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.46.15:692][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.46.15:722][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.17-00.46.15:722][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.46.15:727][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.46.15:765][235]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.46.15:769][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.46.15:776][235]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.04.17-00.46.15:795][236]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.04.17-00.47.33:145][497]LogHotReload: New module detected: UE4Editor-Koala-0023.dll
+[2020.04.17-00.47.34:939][503]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-00.47.35:066][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.04.17-00.47.35:167][503]LogClass: Could not find existing class Seed in package /Script/Koala for HotReload, assuming new class
+[2020.04.17-00.47.35:172][503]LogClass: SeedType HotReload.
+[2020.04.17-00.47.35:172][503]LogClass: WeaponType HotReload.
+[2020.04.17-00.47.35:216][503]LogHotReload: Re-instancing Seed after hot-reload.
+[2020.04.17-00.47.35:220][503]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'CollisionComp' for 'Sphere' in BlueprintGeneratedClass 'RedSeed_C' (it may have been removed)
+[2020.04.17-00.47.36:045][503]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0007 seconds. Added 8 classes and 2 folders.
+[2020.04.17-00.47.36:053][503]Display: HotReload successful (31 functions remapped  0 scriptstructs remapped)
+[2020.04.17-00.47.36:310][503]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2020.04.17-00.47.36:347][503]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 3025 classes and 722 folders.
+[2020.04.17-00.47.36:357][503]Display: HotReload took  1.4s.
+[2020.04.17-00.48.47:510][713]LogHotReload: New module detected: UE4Editor-Koala-0024.dll
+[2020.04.17-00.48.48:906][718]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-00.48.49:118][718]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2020.04.17-00.48.49:212][718]LogClass: SeedType HotReload.
+[2020.04.17-00.48.49:212][718]LogClass: WeaponType HotReload.
+[2020.04.17-00.48.49:229][718]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2020.04.17-00.48.49:235][718]Display: HotReload successful (31 functions remapped  0 scriptstructs remapped)
+[2020.04.17-00.48.49:506][718]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.04.17-00.48.49:543][718]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 3025 classes and 722 folders.
+[2020.04.17-00.48.49:553][718]Display: HotReload took  0.6s.
+[2020.04.17-00.48.53:404][779]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.17-00.48.53:485][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.48.53:485][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.17-00.48.53:485][779]PIE: New page: Sesión PIE (reproducción en el editor): Menu (16 abr. 2020 14:48:53)
+[2020.04.17-00.48.53:485][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.48.53:488][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002961s)
+[2020.04.17-00.48.53:490][779]LogAIModule: Creating AISystem for world Menu
+[2020.04.17-00.48.53:491][779]LogPlayLevel: PIE: World Init took: (0.002325s)
+[2020.04.17-00.48.53:491][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.005577s)
+[2020.04.17-00.48.53:601][779]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-00.48.53:601][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-00.48.53:602][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-00.48.53:602][779]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-00.48.53:602][779]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: Channel Order:
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-00.48.53:615][779]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-00.48.53:635][779]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.17-00.48.53:638][779]LogInit: FAudioDevice initialized.
+[2020.04.17-00.48.53:653][779]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.48.53:654][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.04.16-19.48.53
+[2020.04.17-00.48.53:654][779]LogWorld: Bringing up level for play took: 0.000636
+[2020.04.17-00.48.53:655][779]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.04.17-00.48.53:661][779]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.48.53:663][779]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_Menu 0.577
+[2020.04.17-00.48.53:663][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.48.56:338][913]LogNet: Browse: /Game/Maps/Intro
+[2020.04.17-00.48.56:338][913]LogLoad: LoadMap: /Game/Maps/Intro
+[2020.04.17-00.48.56:338][913]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.48.56:338][913]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.48.56:339][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.48.56:339][913]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.48.56:387][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.04.17-00.48.56:617][913]LogAIModule: Creating AISystem for world Intro
+[2020.04.17-00.48.56:618][913]LogLoad: Game class is 'GameModeBase'
+[2020.04.17-00.48.56:623][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Intro.Intro up for play (max tick rate 60) at 2020.04.16-19.48.56
+[2020.04.17-00.48.56:624][913]LogWorld: Bringing up level for play took: 0.005144
+[2020.04.17-00.48.56:627][913]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.48.56:627][913]LogLoad: Took 0.289486 seconds to LoadMap(/Game/Maps/Intro)
+[2020.04.17-00.48.58:966][  6]LogNet: Browse: /Game/Maps/MainMap
+[2020.04.17-00.48.58:966][  6]LogLoad: LoadMap: /Game/Maps/MainMap
+[2020.04.17-00.48.58:966][  6]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Intro
+[2020.04.17-00.48.58:966][  6]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.48.58:967][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.48.58:967][  6]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.48.59:011][  6]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.04.17-00.48.59:112][  6]LogAIModule: Creating AISystem for world MainMap
+[2020.04.17-00.48.59:113][  6]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.48.59:119][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.04.16-19.48.59
+[2020.04.17-00.48.59:120][  6]LogWorld: Bringing up level for play took: 0.005848
+[2020.04.17-00.48.59:131][  6]LogLoad: Took 0.165822 seconds to LoadMap(/Game/Maps/MainMap)
+[2020.04.17-00.48.59:987][ 37]LogCharacterMovement: KoalaCharacter_BP_C_0 is stuck and failed to move! Velocity: X=-108.36 Y=81.68 Z=0.00 Location: X=2178.97 Y=2271.06 Z=98.09 Normal: X=-0.15 Y=-0.62 Z=-0.77 PenetrationDepth:2.138 Actor:RedSeed_C_0 Component:Sphere BoneName:None (0 other events since notify)
+[2020.04.17-00.49.07:728][337]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.49.07:743][337]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.17-00.49.07:764][337]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.17-00.49.07:764][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.49.07:764][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.49.07:764][337]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2020.04.17-00.49.07:764][337]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.49.07:765][337]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.49.07:765][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.49.07:778][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.17-00.49.07:778][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.49.07:783][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.49.07:820][337]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.49.07:824][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.49.07:830][337]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.04.17-00.49.07:847][338]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.17-00.50.05:028][  3]LogHotReload: New module detected: UE4Editor-Koala-0025.dll
+[2020.04.17-00.50.06:086][  7]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.17-00.50.06:186][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.04.17-00.50.06:239][  7]LogClass: SeedType HotReload.
+[2020.04.17-00.50.06:239][  7]LogClass: WeaponType HotReload.
+[2020.04.17-00.50.06:264][  7]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0013 seconds. Added 8 classes and 2 folders.
+[2020.04.17-00.50.06:275][  7]Display: HotReload successful (31 functions remapped  0 scriptstructs remapped)
+[2020.04.17-00.50.06:589][  7]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.04.17-00.50.06:626][  7]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 3025 classes and 722 folders.
+[2020.04.17-00.50.06:635][  7]Display: HotReload took  0.5s.
+[2020.04.17-00.50.31:065][103]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.17-00.50.31:105][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.50.31:105][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.17-00.50.31:105][103]PIE: New page: Sesión PIE (reproducción en el editor): Menu (16 abr. 2020 14:50:31)
+[2020.04.17-00.50.31:105][103]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.50.31:108][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2020.04.17-00.50.31:110][103]LogAIModule: Creating AISystem for world Menu
+[2020.04.17-00.50.31:115][103]LogPlayLevel: PIE: World Init took: (0.006769s)
+[2020.04.17-00.50.31:115][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.009862s)
+[2020.04.17-00.50.31:241][103]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.04.17-00.50.31:241][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.17-00.50.31:242][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.17-00.50.31:242][103]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.17-00.50.31:242][103]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Is Default: Yes
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: Channel Order:
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.17-00.50.31:258][103]LogAudioMixer: Display: 1: FrontRight
+[2020.04.17-00.50.31:277][103]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.17-00.50.31:279][103]LogInit: FAudioDevice initialized.
+[2020.04.17-00.50.31:287][103]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.50.31:288][103]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.04.16-19.50.31
+[2020.04.17-00.50.31:288][103]LogWorld: Bringing up level for play took: 0.000605
+[2020.04.17-00.50.31:289][103]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.04.17-00.50.31:295][103]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.50.31:297][103]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_Menu 0.212
+[2020.04.17-00.50.31:297][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.50.33:258][203]LogNet: Browse: /Game/Maps/Intro
+[2020.04.17-00.50.33:258][203]LogLoad: LoadMap: /Game/Maps/Intro
+[2020.04.17-00.50.33:258][203]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Menu
+[2020.04.17-00.50.33:259][203]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.50.33:260][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.50.33:260][203]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.50.33:338][203]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.04.17-00.50.33:395][203]LogAIModule: Creating AISystem for world Intro
+[2020.04.17-00.50.33:395][203]LogLoad: Game class is 'GameModeBase'
+[2020.04.17-00.50.33:401][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Intro.Intro up for play (max tick rate 60) at 2020.04.16-19.50.33
+[2020.04.17-00.50.33:401][203]LogWorld: Bringing up level for play took: 0.005023
+[2020.04.17-00.50.33:404][203]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.17-00.50.33:404][203]LogLoad: Took 0.147494 seconds to LoadMap(/Game/Maps/Intro)
+[2020.04.17-00.50.36:095][311]LogNet: Browse: /Game/Maps/MainMap
+[2020.04.17-00.50.36:095][311]LogLoad: LoadMap: /Game/Maps/MainMap
+[2020.04.17-00.50.36:096][311]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Intro
+[2020.04.17-00.50.36:096][311]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.50.36:096][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.50.36:097][311]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.50.36:142][311]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.04.17-00.50.36:187][311]LogAIModule: Creating AISystem for world MainMap
+[2020.04.17-00.50.36:188][311]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.17-00.50.36:193][311]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.04.16-19.50.36
+[2020.04.17-00.50.36:194][311]LogWorld: Bringing up level for play took: 0.004803
+[2020.04.17-00.50.36:200][311]LogLoad: Took 0.104148 seconds to LoadMap(/Game/Maps/MainMap)
+[2020.04.17-00.50.42:842][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.50.42:842][560]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.17-00.50.42:863][560]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.17-00.50.42:863][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.50.42:863][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.50.42:863][560]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2020.04.17-00.50.42:864][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.50.42:865][560]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.17-00.50.42:866][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.50.42:877][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.17-00.50.42:877][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.17-00.50.42:882][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.17-00.50.42:921][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.17-00.50.42:925][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.17-00.50.42:930][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.04.17-00.50.42:949][561]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.17-00.50.45:695][650]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Seeds/RedSeed.RedSeed
+[2020.04.17-00.51.10:093][776]BlueprintLog: New page: Compilar RedSeed
+[2020.04.17-00.51.10:561][776]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2020.04.17-00.51.10:590][776]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.17-00.51.10:591][776]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)

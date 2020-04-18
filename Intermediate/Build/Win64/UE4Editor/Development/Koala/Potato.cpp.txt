@@ -49,12 +49,6 @@ C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\KoalaCharacter.h
 C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\Weapon.h
 C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\Weapon.generated.h
 C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\KoalaCharacter.generated.h
-C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\CombatLocation.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes/Components/BoxComponent.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
-C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\CombatLocation.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionTypes.generated.h

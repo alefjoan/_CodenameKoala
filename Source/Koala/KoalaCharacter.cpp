@@ -5,16 +5,22 @@
 #include "Engine/Classes/GameFramework/SpringArmComponent.h"
 #include "Engine/Classes/Camera/CameraComponent.h"
 #include "Engine/Classes/Components/InputComponent.h"
+#include "Engine/Classes/Components/SphereComponent.h"
+#include "Engine/Classes/Components/CapsuleComponent.h"
 #include "Engine/Classes/GameFramework/Controller.h"
 #include "Engine/Classes/GameFramework/CharacterMovementComponent.h"
+#include "Seed.h"
 #include "Kismet/GameplayStatics.h"
+#include "FruitTree.h"
 #include "Engine/World.h"
+#include "TimerManager.h"
 
 // Sets default values
 AKoalaCharacter::AKoalaCharacter()
 {
 
 	Inventory.SetNum(3, false);
+	SeedInventory.SetNum(3, false);
 
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -45,9 +51,15 @@ AKoalaCharacter::AKoalaCharacter()
 // Called when the game starts or when spawned
 void AKoalaCharacter::BeginPlay()
 {
-	Super::BeginPlay();	
+	Super::BeginPlay();
 
 	SpawnWeapons();
+
+	GetController()->SetIgnoreMoveInput(true);
+	GetController()->SetIgnoreLookInput(true);
+
+	bCanFire = false;
+
 }
 
 void AKoalaCharacter::SpawnWeapons()
@@ -70,6 +82,61 @@ void AKoalaCharacter::SpawnWeapons()
 	Weapon->SetActorRelativeLocation(FVector(10.0f, 30.0f, 0.0f));
 	Weapon->SetActorRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
 
+}
+
+void AKoalaCharacter::FirstWave()
+{
+	SpawnSeed();
+}
+
+void AKoalaCharacter::SpawnSeed()
+{
+	SeedInventory[0] = GetWorld()->SpawnActor<ASeed>(RedSeed);
+	SeedInventory[0]->SetActorHiddenInGame(false);
+
+	Seed = SeedInventory[0];
+	Seed->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
+	Seed->SetActorRelativeLocation(FVector(-30.0f, 0.0f, 30.0f));
+}
+
+void AKoalaCharacter::GrowPlantTree()
+{
+	if (bCanPlantTree)
+	{
+		if (Seed)
+		{
+			if (Seed->SeedType == 0)
+			{
+				GetController()->SetIgnoreMoveInput(false);
+				GetController()->SetIgnoreLookInput(false);
+
+				bCanFire = true;
+
+				AFruitTree* SpawnRedFruitTree = GetWorld()->SpawnActor<AFruitTree>(RedFruitTree);
+				SpawnRedFruitTree->SetActorLocation(FVector(GetActorLocation().X - 200.0f, GetActorLocation().Y, GetActorLocation().Z - GetCapsuleComponent()->GetScaledCapsuleHalfHeight()));
+
+				Seed->Destroy();
+				Seed = NULL;
+			}
+		}
+	}
+
+	else if (!bCanPlantTree)
+	{
+		if (Seed)
+		{
+			if (Seed->SeedType == 0)
+			{
+
+			}
+		}
+
+		else
+		{
+
+		}
+
+	}
 }
 
 // Called every frame
@@ -103,8 +170,13 @@ void AKoalaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	PlayerInputComponent->BindAction("NextWeapon", IE_Pressed, this, &AKoalaCharacter::NextWeapon);
 	PlayerInputComponent->BindAction("PreviousWeapon", IE_Pressed, this, &AKoalaCharacter::PreviousWeapon);
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AKoalaCharacter::Fire);
-	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AKoalaCharacter::StopFire);
 
+	FInputActionBinding& StopFire = PlayerInputComponent->BindAction("Fire", IE_Released, this, &AKoalaCharacter::StopFire);
+	StopFire.bExecuteWhenPaused = true;
+
+	FInputActionBinding& PlantTree = PlayerInputComponent->BindAction("PlantTree", IE_Pressed, this, &AKoalaCharacter::GrowPlantTree);
+	PlantTree.bExecuteWhenPaused = true;
+	
 }
 
 void AKoalaCharacter::MoveForward(float Axis)
@@ -221,15 +293,63 @@ void AKoalaCharacter::PreviousWeapon()
 
 void AKoalaCharacter::Fire()
 {
-	Weapon->WeaponFire();
-	GetCharacterMovement()->bOrientRotationToMovement = false;
-	GetCharacterMovement()->bUseControllerDesiredRotation = true;
+	if (bCanFire)
+	{
+		Weapon->WeaponFire();
+		GetCharacterMovement()->bOrientRotationToMovement = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = true;
+	}
+
+	else return;
 }
 
 void AKoalaCharacter::StopFire()
 {
-	Weapon->StopFire();
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->bUseControllerDesiredRotation = false;
+	if (bCanFire)
+	{
+		Weapon->StopFire();
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+	}
+
+	else return;
+}
+
+void AKoalaCharacter::Reload(AFruitTree* TreeType)
+{
+	FruitTree = Cast<AFruitTree>(TreeType);
+
+	if (FruitTree->TreeType.GetValue() == Weapon->WeaponType.GetValue())
+	{
+		GetWorldTimerManager().SetTimer(ReloadTimer, this, &AKoalaCharacter::AddAmmoOnTime, 0.1f, true);
+	}
+}
+
+void AKoalaCharacter::AddAmmoOnTime()
+{
+	if (FruitTree->TreeType.GetValue() == Weapon->WeaponType.GetValue())
+	{
+		if (Weapon->CurrentAmmo < Weapon->MaxAmmo)
+		{
+			Weapon->CurrentAmmo += 1;
+		}
+
+		else return;
+	}
+
+	else
+	{
+		return;
+	}
+}
+
+void AKoalaCharacter::StopReloading(AFruitTree* TreeType)
+{
+	GetWorldTimerManager().ClearTimer(ReloadTimer);
+}
+
+void AKoalaCharacter::DeadPotatos()
+{
+	DeadPotato++;
 }
 

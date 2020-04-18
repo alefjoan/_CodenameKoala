@@ -32,6 +32,15 @@ public:
 	UFUNCTION()
 	void SpawnWeapons();
 
+	UFUNCTION(BlueprintCallable)
+	void FirstWave();
+
+	UFUNCTION()
+	void SpawnSeed();
+
+	UFUNCTION()
+	void GrowPlantTree();
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -40,12 +49,19 @@ public:
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetCamera() const { return Camera; }
+	FORCEINLINE class ASeed* GetSeed() { return Seed; }
+	FORCEINLINE class AFruitTree* GetFruitTree() { return FruitTree; }
 
 protected:
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Weapon)
 	AWeapon* Weapon;
 
 	APotato* Potato;
+
+	class ASeed* Seed;
+
+	class AFruitTree* FruitTree;
 
 public:
 
@@ -88,6 +104,19 @@ public:
 	UFUNCTION()
 	void StopFire();
 
+	UFUNCTION()
+	void Reload(AFruitTree* TreeType);
+
+	UFUNCTION()
+	void AddAmmoOnTime();
+
+	UFUNCTION()
+	void StopReloading(AFruitTree* TreeType);
+
+	UFUNCTION()
+	void DeadPotatos();
+
+	//Weapon Inv
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Weapon)
 	TSubclassOf<class AWeapon> RedWeapon;
 
@@ -100,6 +129,42 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Weapon)
 	TArray<class AWeapon*> Inventory;
 
-	int32 WeaponNumber = 0;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Weapon)
+	bool bCanFire;
+
+	//Seed inv
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Seed)
+	TSubclassOf<class ASeed> RedSeed;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Seed)
+	TSubclassOf<class ASeed> BlueSeed;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Seed)
+	TSubclassOf<class ASeed> GreenSeed;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Seed)
+	TArray<class ASeed*> SeedInventory;
+
+	//Trees
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Tree)
+	TSubclassOf<class AFruitTree> RedFruitTree;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Tree)
+	TSubclassOf<class AFruitTree> BlueFruitTree;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Tree)
+	TSubclassOf<class AFruitTree> GreenFruitTree;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Tree)
+	bool bCanPlantTree;
+
+	int32 WeaponNumber;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Enemy)
+	int32 DeadPotato;
+
+	//Timers
+
+	FTimerHandle ReloadTimer;
 
 };

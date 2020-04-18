@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AFruitTree;
 #ifdef KOALA_KoalaCharacter_generated_h
 #error "KoalaCharacter.generated.h already included, missing '#pragma once' in KoalaCharacter.h"
 #endif
@@ -15,6 +16,40 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Koala_Source_Koala_KoalaCharacter_h_14_SPARSE_DATA
 #define Koala_Source_Koala_KoalaCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDeadPotatos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DeadPotatos(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopReloading) \
+	{ \
+		P_GET_OBJECT(AFruitTree,Z_Param_TreeType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopReloading(Z_Param_TreeType); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAddAmmoOnTime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddAmmoOnTime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_GET_OBJECT(AFruitTree,Z_Param_TreeType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(Z_Param_TreeType); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execStopFire) \
 	{ \
@@ -121,6 +156,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveForward(Z_Param_Axis); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGrowPlantTree) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GrowPlantTree(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnSeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnSeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFirstWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FirstWave(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -135,6 +194,40 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Koala_Source_Koala_KoalaCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execDeadPotatos) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DeadPotatos(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopReloading) \
+	{ \
+		P_GET_OBJECT(AFruitTree,Z_Param_TreeType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StopReloading(Z_Param_TreeType); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAddAmmoOnTime) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddAmmoOnTime(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_GET_OBJECT(AFruitTree,Z_Param_TreeType); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(Z_Param_TreeType); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStopFire) \
 	{ \
 		P_FINISH; \
@@ -240,6 +333,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveForward(Z_Param_Axis); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGrowPlantTree) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GrowPlantTree(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSpawnSeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnSeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFirstWave) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FirstWave(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -296,7 +413,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AKoalaCharacter); \
 
 #define Koala_Source_Koala_KoalaCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AKoalaCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AKoalaCharacter, Camera); }
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AKoalaCharacter, Camera); } \
+	FORCEINLINE static uint32 __PPO__Weapon() { return STRUCT_OFFSET(AKoalaCharacter, Weapon); }
 
 
 #define Koala_Source_Koala_KoalaCharacter_h_11_PROLOG

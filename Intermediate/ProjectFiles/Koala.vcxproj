@@ -274,8 +274,8 @@
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClCompile Include="..\..\Source\Koala\Bullet.cpp"/>
     <ClInclude Include="..\..\Source\Koala\Bullet.h"/>
-    <ClCompile Include="..\..\Source\Koala\CombatLocation.cpp"/>
-    <ClInclude Include="..\..\Source\Koala\CombatLocation.h"/>
+    <ClCompile Include="..\..\Source\Koala\FruitTree.cpp"/>
+    <ClInclude Include="..\..\Source\Koala\FruitTree.h"/>
     <None Include="..\..\Source\Koala\Koala.Build.cs"/>
     <ClCompile Include="..\..\Source\Koala\Koala.cpp"/>
     <ClInclude Include="..\..\Source\Koala\Koala.h"/>
@@ -289,6 +289,8 @@
     <ClInclude Include="..\..\Source\Koala\PotatoController.h"/>
     <ClCompile Include="..\..\Source\Koala\PotatoSpawnPoint.cpp"/>
     <ClInclude Include="..\..\Source\Koala\PotatoSpawnPoint.h"/>
+    <ClCompile Include="..\..\Source\Koala\Seed.cpp"/>
+    <ClInclude Include="..\..\Source\Koala\Seed.h"/>
     <ClCompile Include="..\..\Source\Koala\Weapon.cpp"/>
     <ClInclude Include="..\..\Source\Koala\Weapon.h"/>
   </ItemGroup>

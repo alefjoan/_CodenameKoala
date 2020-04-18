@@ -3,6 +3,7 @@
 
 #include "Potato.h"
 #include "PotatoController.h"
+#include "KoalaCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/Classes/Components/SkeletalMeshComponent.h"
 #include "AIController.h"
@@ -30,9 +31,10 @@ void APotato::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Koala = Cast<AKoalaCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+
 	bIsDead = false;
 
-	
 }
 
 // Called every frame
@@ -65,6 +67,8 @@ void APotato::DamageReception(int32 DamageTaken)
 
 	if (PotatoHP <= 0)
 	{
+		PotatoController->PotatoDeath();
 		bIsDead = true;
+
 	}
 }

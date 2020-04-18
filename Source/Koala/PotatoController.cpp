@@ -29,11 +29,7 @@ void APotatoController::BeginPlay()
 	Super::BeginPlay();
 
 	Koala = Cast<AKoalaCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
-
-	for (TActorIterator<ACombatLocation> ActorItr(GetWorld()); ActorItr; ++ActorItr)
-	{
-		CombatLocation = Cast<ACombatLocation>(*ActorItr);
-	}
+	KoalaCharacter = Cast<AKoalaCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 	
 }
 
@@ -49,7 +45,7 @@ void APotatoController::Tick(float DeltaTime)
 
 	RandomReactionTime = FMath::FRandRange(10.0f, 30.0f);
 
-	RandomBehaviour = FMath::RandHelper(3);
+	RandomBehaviour = FMath::RandHelper(100);
 
 	if (Koala)
 	{
@@ -58,14 +54,6 @@ void APotatoController::Tick(float DeltaTime)
 			MoveToActor(Koala, 50.0f);
 		}
 
-	}
-
-	if (Potato)
-	{
-		if (Potato->bIsDead)
-		{
-			StopMovement();
-		}
 	}
 }
 
@@ -98,17 +86,17 @@ void APotatoController::OnPawnDetect(AActor* Actor, FAIStimulus Stimulus)
 	{
 		if (SeenPotato->bIsDead && bReactToDeaths)
 		{
-			if (RandomBehaviour == 0)
+			if (RandomBehaviour >= 0 && RandomBehaviour <= 10)
 			{
 				BehaviourOne();
 			}
 
-			if (RandomBehaviour == 1)
+			if (RandomBehaviour >= 11 && RandomBehaviour <= 40)
 			{
 				BehaviourTwo();
 			}
 
-			if (RandomBehaviour == 2)
+			if (RandomBehaviour >= 41 && RandomBehaviour <= 100)
 			{
 				BehaviourThree();
 			}
@@ -153,9 +141,9 @@ void APotatoController::SetRandomLocation()
 
 void APotatoController::BehaviourOne()
 {
-	Potato->Destroy();
+	Potato->PotatoHP = 0;
+	PotatoDeath();
 
-	GetWorldTimerManager().SetTimer(ReactToDeathsTimer, this, &APotatoController::ReactToDeaths, RandomReactionTime, false);
 }
 
 void APotatoController::BehaviourTwo()
@@ -197,4 +185,10 @@ void APotatoController::CheckPlayerSpotted()
 void APotatoController::ForgetDamageTaken()
 {
 	ForgetPlayer();
+}
+
+void APotatoController::PotatoDeath()
+{
+	KoalaCharacter->DeadPotatos();
+	Destroy();
 }

@@ -27,6 +27,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+private:
+
+	class ABullet* LoadedBullet;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -43,6 +47,15 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Projectile, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<class ABullet> Bullet;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ammo)
+	int32 MaxAmmo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ammo)
+	int32 CurrentAmmo;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Ammo)
+	int32 AmmoCost;
+
 	FTimerHandle RedFireTimer;
 
 	UFUNCTION()
@@ -56,4 +69,6 @@ public:
 
 	UFUNCTION()
 	void AutomaticRedFire();
+
+	FORCEINLINE class ABullet* const GetLoadedBullet() { return LoadedBullet; }
 };

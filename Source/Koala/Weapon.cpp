@@ -49,64 +49,86 @@ void AWeapon::RedWeaponFire()
 {
 	if (Bullet)
 	{
-		FVector MuzzleLocation = GetActorLocation();
+		CurrentAmmo -= AmmoCost;
 
-		float RandomShootingPitch = FMath::FRandRange(-WeaponSpread, WeaponSpread);
-		float RandomShootingYaw = FMath::FRandRange(-WeaponSpread, WeaponSpread);
-
-		FRotator MuzzleRotation = FRotator(GetActorRotation().Roll + +RandomShootingPitch, GetActorRotation().Yaw + RandomShootingYaw, GetActorRotation().Pitch);
-
-		MuzzleRotation.Yaw -= 90.0f;
-
-		UWorld* World = GetWorld();
-
-		if (World)
+		if (CurrentAmmo > 0)
 		{
-			FActorSpawnParameters SpawnParams;
-			SpawnParams.Owner = this;
-			SpawnParams.Instigator = GetInstigator();
-			// Spawn the projectile at the muzzle.
-			ABullet* Projectile = World->SpawnActor<ABullet>(Bullet, MuzzleLocation, MuzzleRotation, SpawnParams);
-			if (Projectile)
+			FVector MuzzleLocation = GetActorLocation();
+
+			float RandomShootingPitch = FMath::FRandRange(-WeaponSpread, WeaponSpread);
+			float RandomShootingYaw = FMath::FRandRange(-WeaponSpread, WeaponSpread);
+
+			FRotator MuzzleRotation = FRotator(GetActorRotation().Roll + +RandomShootingPitch, GetActorRotation().Yaw + RandomShootingYaw, GetActorRotation().Pitch);
+
+			MuzzleRotation.Yaw -= 90.0f;
+
+			UWorld* World = GetWorld();
+
+			if (World)
 			{
-				// Set the projectile's initial trajectory.
-				FVector LaunchDirection = MuzzleRotation.Vector();
-				Projectile->FireInDirection(LaunchDirection);
+				FActorSpawnParameters SpawnParams;
+				SpawnParams.Owner = this;
+				SpawnParams.Instigator = GetInstigator();
+				// Spawn the projectile at the muzzle.
+				ABullet* Projectile = World->SpawnActor<ABullet>(Bullet, MuzzleLocation, MuzzleRotation, SpawnParams);
+				if (Projectile)
+				{
+					// Set the projectile's initial trajectory.
+					FVector LaunchDirection = MuzzleRotation.Vector();
+					Projectile->FireInDirection(LaunchDirection);
+				}
 			}
 		}
-	}
 
-	GetWorldTimerManager().SetTimer(RedFireTimer, this, &AWeapon::AutomaticRedFire, 0.2f, true);
+		else
+		{
+			CurrentAmmo = 0;
+			return;
+		}
+
+		GetWorldTimerManager().SetTimer(RedFireTimer, this, &AWeapon::AutomaticRedFire, 0.2f, true);
+	}
 }
 
 void AWeapon::AutomaticRedFire()
 {
 	if (Bullet)
 	{
-		FVector MuzzleLocation = GetActorLocation();
+		CurrentAmmo -= AmmoCost;
 
-		float RandomShootingPitch = FMath::FRandRange(-WeaponSpread, WeaponSpread);
-		float RandomShootingYaw = FMath::FRandRange(-WeaponSpread, WeaponSpread);
-
-		FRotator MuzzleRotation = FRotator(GetActorRotation().Roll + +RandomShootingPitch, GetActorRotation().Yaw + RandomShootingYaw, GetActorRotation().Pitch);
-
-		MuzzleRotation.Yaw -= 90.0f;
-
-		UWorld* World = GetWorld();
-
-		if (World)
+		if (CurrentAmmo > 0)
 		{
-			FActorSpawnParameters SpawnParams;
-			SpawnParams.Owner = this;
-			SpawnParams.Instigator = GetInstigator();
-			// Spawn the projectile at the muzzle.
-			ABullet* Projectile = World->SpawnActor<ABullet>(Bullet, MuzzleLocation, MuzzleRotation, SpawnParams);
-			if (Projectile)
+			FVector MuzzleLocation = GetActorLocation();
+
+			float RandomShootingPitch = FMath::FRandRange(-WeaponSpread, WeaponSpread);
+			float RandomShootingYaw = FMath::FRandRange(-WeaponSpread, WeaponSpread);
+
+			FRotator MuzzleRotation = FRotator(GetActorRotation().Roll + +RandomShootingPitch, GetActorRotation().Yaw + RandomShootingYaw, GetActorRotation().Pitch);
+
+			MuzzleRotation.Yaw -= 90.0f;
+
+			UWorld* World = GetWorld();
+
+			if (World)
 			{
-				// Set the projectile's initial trajectory.
-				FVector LaunchDirection = MuzzleRotation.Vector();
-				Projectile->FireInDirection(LaunchDirection);
+				FActorSpawnParameters SpawnParams;
+				SpawnParams.Owner = this;
+				SpawnParams.Instigator = GetInstigator();
+				// Spawn the projectile at the muzzle.
+				ABullet* Projectile = World->SpawnActor<ABullet>(Bullet, MuzzleLocation, MuzzleRotation, SpawnParams);
+				if (Projectile)
+				{
+					// Set the projectile's initial trajectory.
+					FVector LaunchDirection = MuzzleRotation.Vector();
+					Projectile->FireInDirection(LaunchDirection);
+				}
 			}
+		}
+
+		else
+		{
+			CurrentAmmo = 0;
+			return;
 		}
 	}
 }

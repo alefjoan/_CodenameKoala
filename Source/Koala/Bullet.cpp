@@ -4,13 +4,11 @@
 #include "Bullet.h"
 #include "Engine/Classes/Components/SphereComponent.h"
 #include "Engine/Classes/GameFramework/ProjectileMovementComponent.h"
+#include "FruitTree.h"
 
 // Sets default values
 ABullet::ABullet()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
     CollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("CollisionComponent"));
     CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Bullet"));
     CollisionComponent->OnComponentHit.AddDynamic(this, &ABullet::OnHit);
@@ -38,13 +36,6 @@ void ABullet::BeginPlay()
 	
 }
 
-// Called every frame
-void ABullet::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
 void ABullet::FireInDirection(const FVector& ShootDirection)
 {
     ProjectileMovementComponent->Velocity = ShootDirection * ProjectileMovementComponent->InitialSpeed;
@@ -61,7 +52,10 @@ void ABullet::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrim
 
     if (Potato)
     {
-        Potato->DamageReception(BulletDamage);
+        if (Potato->PotatoHP > 0)
+        {
+            Potato->DamageReception(BulletDamage);
+        }
     }
 
     Destroy();

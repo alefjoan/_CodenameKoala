@@ -1,0 +1,1272 @@
+﻿Log file open, 04/13/20 16:17:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Koala
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.365417
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-10570792
+LogInit: Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU:        Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Dec  6 2019 02:05:13
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.13-21.18.00:749][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.13-21.18.00:750][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.13-21.18.00:751][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.13-21.18.00:751][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.13-21.18.00:751][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.13-21.18.00:751][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.13-21.18.00:751][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:751][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:757][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.13-21.18.00:757][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.13-21.18.00:758][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.13-21.18.00:759][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.13-21.18.00:760][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.13-21.18.00:761][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.13-21.18.00:761][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-21.18.00:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.13-21.18.00:782][  0]LogHAL: Display: Platform has ~ 8 GB [8488001536 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.13-21.18.00:783][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.13-21.18.00:783][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.13-21.18.00:783][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.13-21.18.00:784][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.13-21.18.00:785][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.13-21.18.00:786][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Scalability.ini]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.13-21.18.00:787][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.13-21.18.00:788][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.13-21.18.00:789][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.13-21.18.00:789][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Config/Windows/Engine.ini]
+[2020.04.13-21.18.00:789][  0]LogInit: Computer: DESKTOP-S7JHR63
+[2020.04.13-21.18.00:789][  0]LogInit: User: Peter
+[2020.04.13-21.18.00:789][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.04.13-21.18.00:789][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.13-21.18.00:790][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.04.13-21.18.00:790][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.13-21.18.00:790][  0]LogMemory: Process Physical Memory: 104.94 MB used, 104.95 MB peak
+[2020.04.13-21.18.00:790][  0]LogMemory: Process Virtual Memory: 99.93 MB used, 99.93 MB peak
+[2020.04.13-21.18.00:790][  0]LogMemory: Physical Memory: 4721.03 MB used,  3373.76 MB free, 8094.79 MB total
+[2020.04.13-21.18.00:790][  0]LogMemory: Virtual Memory: 5117.11 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.04.13-21.18.00:796][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.13-21.18.00:853][  0]LogInit: Using OS detected language (es-MX).
+[2020.04.13-21.18.00:853][  0]LogInit: Using OS detected locale (es-MX).
+[2020.04.13-21.18.00:857][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/es-MX/Editor.locres' could not be opened for reading!
+[2020.04.13-21.18.00:857][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/es-MX/EditorTutorials.locres' could not be opened for reading!
+[2020.04.13-21.18.00:857][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/es-MX/Keywords.locres' could not be opened for reading!
+[2020.04.13-21.18.00:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/es-MX/Category.locres' could not be opened for reading!
+[2020.04.13-21.18.00:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/es-MX/ToolTips.locres' could not be opened for reading!
+[2020.04.13-21.18.00:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/es-MX/PropertyNames.locres' could not be opened for reading!
+[2020.04.13-21.18.00:859][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/es-MX/Engine.locres' could not be opened for reading!
+[2020.04.13-21.18.00:859][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/es-MX/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.04.13-21.18.00:860][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/es-MX/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.04.13-21.18.00:873][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/es-MX/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.04.13-21.18.01:249][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.13-21.18.01:445][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.13-21.18.01:445][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.13-21.18.08:847][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-21.18.08:848][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.13-21.18.08:848][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.13-21.18.08:848][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.13-21.18.09:011][  0]LogD3D11RHI:    0. 'NVIDIA NVS 5200M' (Feature Level 11_0)
+[2020.04.13-21.18.09:011][  0]LogD3D11RHI:       979/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.13-21.18.09:027][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2020.04.13-21.18.09:027][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.13-21.18.09:035][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.13-21.18.09:035][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.13-21.18.09:035][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.13-21.18.09:112][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.13-21.18.09:112][  0]LogD3D11RHI:     GPU DeviceId: 0xdfc (for the marketing name, search the web for "GPU Device Id")
+[2020.04.13-21.18.09:112][  0]LogWindows: EnumDisplayDevices:
+[2020.04.13-21.18.09:113][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2020.04.13-21.18.09:113][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2020.04.13-21.18.09:114][  0]LogWindows:    2. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.04.13-21.18.09:115][  0]LogWindows:    3. 'NVIDIA NVS 5200M' (P:0 D:0)
+[2020.04.13-21.18.09:116][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2020.04.13-21.18.09:116][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 5200M
+[2020.04.13-21.18.09:116][  0]LogD3D11RHI:   Driver Version: 387.95 (internal:23.21.13.8795, unified:387.95)
+[2020.04.13-21.18.09:116][  0]LogD3D11RHI:      Driver Date: 10-9-2017
+[2020.04.13-21.18.09:116][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2020.04.13-21.18.09:242][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2020.04.13-21.18.09:242][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.04.13-21.18.09:243][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.13-21.18.09:270][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.13-21.18.10:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.13-21.18.10:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.13-21.18.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.13-21.18.10:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.13-21.18.10:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.13-21.18.10:867][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.13-21.18.10:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.13-21.18.10:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.13-21.18.10:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.13-21.18.10:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.13-21.18.11:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.13-21.18.11:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.13-21.18.11:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.13-21.18.11:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.13-21.18.11:175][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.13-21.18.11:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.13-21.18.11:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.13-21.18.11:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.13-21.18.11:263][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.13-21.18.11:290][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.13-21.18.11:382][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Intermediate/Shaders/WorkingDirectory/3668/).
+[2020.04.13-21.18.11:383][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Peter/AppData/Local/Temp/UnrealShaderWorkingDir/C588DF78480FD3E1591657AB334D6AE8/'.
+[2020.04.13-21.18.11:384][  0]LogXGEController: Cleaning working directory: C:/Users/Peter/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.13-21.18.11:385][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.13-21.18.11:385][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.13-21.18.11:385][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.13-21.18.19:557][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.13-21.18.19:716][  0]LogDerivedDataCache: Loaded boot cache 0.16s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.13-21.18.19:716][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.13-21.18.19:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.13-21.18.19:717][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.13-21.18.19:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Peter/Documents/Unreal Projects/Koala/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-21.18.19:717][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.13-21.18.19:757][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.13-21.18.19:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.13-21.18.19:757][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.13-21.18.19:761][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Peter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.13-21.18.19:761][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.13-21.18.19:761][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.13-21.18.19:889][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.13-21.18.19:900][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.13-21.18.19:901][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.13-21.18.20:094][  0]LogAssetRegistry: FAssetRegistry took 0.0075 seconds to start up
+[2020.04.13-21.18.21:587][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.13-21.18.22:189][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.13-21.18.22:189][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.13-21.18.22:189][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.13-21.18.22:189][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.13-21.18.22:189][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.13-21.18.22:222][  0]LogNetVersion: Koala 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2842164528)
+[2020.04.13-21.18.26:094][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.317729 seconds
+[2020.04.13-21.18.26:115][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.13-21.18.26:115][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.13-21.18.26:115][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.13-21.18.27:752][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.13-21.18.27:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.13-21.18.27:916][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.27:917][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.27:920][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.27:922][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.27:925][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.28:147][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.13-21.18.28:174][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.13-21.18.28:174][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.13-21.18.28:493][  0]LogOcInput: OculusInput pre-init called
+[2020.04.13-21.18.28:523][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.13-21.18.28:523][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.13-21.18.28:800][  0]LogEngine: Initializing Engine...
+[2020.04.13-21.18.28:803][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.13-21.18.28:806][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.04.13-21.18.30:121][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.13-21.18.30:143][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-21.18.30:203][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-21.18.30:203][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-21.18.30:204][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-21.18.30:204][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-21.18.30:274][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-21.18.30:369][  0]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.13-21.18.30:382][  0]LogInit: FAudioDevice initialized.
+[2020.04.13-21.18.30:383][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.13-21.18.30:551][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/Peter/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.13-21.18.30:567][  0]LogInit: Texture streaming: Enabled
+[2020.04.13-21.18.30:594][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.13-21.18.30:594][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={205E9FCA-48FB-4035-CEA1-98A57D586117}
+[2020.04.13-21.18.30:594][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.13-21.18.30:601][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.13-21.18.30:815][  0]LogInit: Transaction tracking system initialized
+[2020.04.13-21.18.30:843][  0]BlueprintLog: New page: Cargar el editor
+[2020.04.13-21.18.30:925][  0]LocalizationService: Localization service is disabled
+[2020.04.13-21.18.32:126][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/' took 0.02s
+[2020.04.13-21.18.32:126][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.13-21.18.32:126][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.13-21.18.34:862][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.13-21.18.34:863][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Peter/Documents/Unreal Projects/Koala/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.13-21.18.34:865][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.13-21.18.34:868][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.18.34:868][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.18.34:868][  0]MapCheck: New page: Revisión del mapa
+[2020.04.13-21.18.34:869][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.13-21.18.34:992][  0]LogUObjectHash: Compacting FUObjectHashTables data took   8.37ms
+[2020.04.13-21.18.35:122][  0]LogAIModule: Creating AISystem for world Menu
+[2020.04.13-21.18.35:125][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.13-21.18.35:262][  0]LogUObjectHash: Compacting FUObjectHashTables data took   9.53ms
+[2020.04.13-21.18.35:263][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.13-21.18.35:263][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.408ms to complete.
+[2020.04.13-21.18.35:264][  0]LogFileHelpers: Loading map 'Menu' took 0.400
+[2020.04.13-21.18.35:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.18.35:660][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.18.35:693][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.18.35:727][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.18.35:748][  0]LogCollectionManager: Loaded 0 collections in 0.007870 seconds
+[2020.04.13-21.18.35:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Saved/Collections/' took 0.00s
+[2020.04.13-21.18.35:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Developers/Peter/Collections/' took 0.00s
+[2020.04.13-21.18.35:803][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Peter/Documents/Unreal Projects/Koala/Content/Collections/' took 0.00s
+[2020.04.13-21.18.35:803][  0]LogContentBrowser: Native class hierarchy populated in 0.0391 seconds. Added 3023 classes and 719 folders.
+[2020.04.13-21.18.35:814][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.04.13-21.18.36:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2020.04.13-21.18.36:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 2 classes and 3 folders.
+[2020.04.13-21.18.40:000][  0]LogSlate: Took 0.001177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.13-21.18.40:011][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.13-21.18.40:041][  0]LogSlate: Took 0.000674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.13-21.18.40:043][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.13-21.18.40:537][  0]LogRenderer: Reallocating scene render targets to support 840x372 Format 10 NumSamples 1 (Frame:1).
+[2020.04.13-21.18.40:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.04.13-21.18.40:802][  0]LogLoad: (Engine Initialization) Total time: 46.15 seconds
+[2020.04.13-21.18.40:802][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.13-21.18.40:929][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.13-21.18.41:244][  3]LogAssetRegistry: Asset discovery search completed in 21.1512 seconds
+[2020.04.13-21.18.41:256][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2020.04.13-21.19.13:393][191]Candidate modules for hot reload:
+[2020.04.13-21.19.13:393][191]  Koala
+[2020.04.13-21.19.13:393][191]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Koala,4177 Win64 Development -TargetType=Editor -Project="C:/Users/Peter/Documents/Unreal Projects/Koala/Koala.uproject" "C:/Users/Peter/Documents/Unreal Projects/Koala/Koala.uproject"  -IgnoreJunk]
+[2020.04.13-21.19.13:400][191]Warning: Starting HotReload took  0.1s.
+[2020.04.13-21.20.15:865][594]CompilerResultsLog: New page: Compilación - 13 abr. 2020 11:20:15
+[2020.04.13-21.20.15:866][594]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Peter\Documents\Unreal Projects\Koala).
+[2020.04.13-21.20.15:866][594]CompilerResultsLog: Parsing headers for KoalaEditor
+[2020.04.13-21.20.15:866][594]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Peter\Documents\Unreal Projects\Koala\Koala.uproject" "C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\KoalaEditor\Development\KoalaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.13-21.20.15:866][594]CompilerResultsLog: Reflection code generated for KoalaEditor in 36.3897386 seconds
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: Building KoalaEditor...
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade]
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.13-21.20.15:867][594]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in KoalaEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.13-21.20.15:868][594]CompilerResultsLog: [Upgrade]
+[2020.04.13-21.20.15:868][594]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   [1/4] KoalaCharacter.cpp
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\Definitions.Koala.h
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\KoalaCharacter.h
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2020.04.13-21.20.15:868][594]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\Weapon.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\Weapon.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\Potato.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\Potato.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\KoalaCharacter.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine/Classes/GameFramework/SpringArmComponent.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine/Classes/Camera/CameraComponent.h
+[2020.04.13-21.20.15:869][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine/Classes/Components/SphereComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine/Classes/GameFramework/CharacterMovementComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AI/RVOAvoidanceInterface.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RVOAvoidanceInterface.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+[2020.04.13-21.20.15:870][594]CompilerResultsLog:   Nota: inclusi?n del archivo:     C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\Seed.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\Seed.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo: C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:    C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+[2020.04.13-21.20.15:871][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   Nota: inclusi?n del archivo:   C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   Nota: inclusi?n del archivo:  C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   [2/4] UE4Editor-Koala-4177.lib
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:      Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-4177.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-4177.exp
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   [3/4] UE4Editor-Koala-4177.dll
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:      Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-4177.suppressed.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-4177.suppressed.exp
+[2020.04.13-21.20.15:872][594]CompilerResultsLog:   [4/4] KoalaEditor.target
+[2020.04.13-21.20.15:872][594]CompilerResultsLog: Total time in Parallel executor: 17.41 seconds
+[2020.04.13-21.20.15:872][594]CompilerResultsLog: Total execution time: 61.98 seconds
+[2020.04.13-21.20.15:872][594]LogMainFrame: MainFrame: Module compiling took 62.504 seconds
+[2020.04.13-21.20.15:966][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.13-21.20.16:046][594]LogClass: SeedType HotReload.
+[2020.04.13-21.20.16:047][594]LogClass: WeaponType HotReload.
+[2020.04.13-21.20.16:076][594]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0011 seconds. Added 8 classes and 2 folders.
+[2020.04.13-21.20.16:083][594]Display: HotReload successful (33 functions remapped  0 scriptstructs remapped)
+[2020.04.13-21.20.16:361][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.04.13-21.20.16:419][594]LogContentBrowser: Native class hierarchy populated in 0.0407 seconds. Added 3025 classes and 722 folders.
+[2020.04.13-21.20.16:419][594]Display: HotReload took 63.1s.
+[2020.04.13-21.20.21:437][887]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.13-21.20.21:504][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.20.21:505][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-21.20.21:505][887]PIE: New page: Sesión PIE (reproducción en el editor): Menu (13 abr. 2020 11:20:21)
+[2020.04.13-21.20.21:508][887]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.13-21.20.21:510][887]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.13-21.20.21:512][887]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2020.04.13-21.20.21:516][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003664s)
+[2020.04.13-21.20.21:518][887]LogAIModule: Creating AISystem for world Menu
+[2020.04.13-21.20.21:519][887]LogPlayLevel: PIE: World Init took: (0.003023s)
+[2020.04.13-21.20.21:519][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.007458s)
+[2020.04.13-21.20.21:584][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.04.13-21.20.21:584][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-21.20.21:584][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-21.20.21:584][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-21.20.21:585][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-21.20.21:585][887]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-21.20.21:585][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-21.20.21:585][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-21.20.21:585][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-21.20.21:586][887]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-21.20.21:586][887]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-21.20.21:609][887]LogAudioMixer: Display: Channel Order:
+[2020.04.13-21.20.21:610][887]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-21.20.21:610][887]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-21.20.21:642][887]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.13-21.20.21:646][887]LogInit: FAudioDevice initialized.
+[2020.04.13-21.20.22:041][887]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.20.22:044][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.04.13-16.20.22
+[2020.04.13-21.20.22:045][887]LogWorld: Bringing up level for play took: 0.001084
+[2020.04.13-21.20.22:045][887]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.04.13-21.20.22:141][887]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2020.04.13-21.20.22:152][887]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.13-21.20.22:156][887]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_Menu 0.825
+[2020.04.13-21.20.22:157][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.20.23:893][966]LogNet: Browse: /Game/Maps/Intro
+[2020.04.13-21.20.23:896][966]LogLoad: LoadMap: /Game/Maps/Intro
+[2020.04.13-21.20.23:896][966]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Menu
+[2020.04.13-21.20.23:899][966]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.20.23:899][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.20.23:900][966]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.23:990][966]LogUObjectHash: Compacting FUObjectHashTables data took  10.03ms
+[2020.04.13-21.20.24:421][966]LogAIModule: Creating AISystem for world Intro
+[2020.04.13-21.20.24:421][966]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.20.24:435][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Intro.Intro up for play (max tick rate 60) at 2020.04.13-16.20.24
+[2020.04.13-21.20.24:436][966]LogWorld: Bringing up level for play took: 0.012819
+[2020.04.13-21.20.24:447][966]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.13-21.20.24:451][966]LogLoad: Took 0.554535 seconds to LoadMap(/Game/Maps/Intro)
+[2020.04.13-21.20.27:721][ 90]LogNet: Browse: /Game/Maps/MainMap
+[2020.04.13-21.20.27:721][ 90]LogLoad: LoadMap: /Game/Maps/MainMap
+[2020.04.13-21.20.27:721][ 90]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Intro
+[2020.04.13-21.20.27:722][ 90]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.20.27:723][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.20.27:724][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.27:832][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2020.04.13-21.20.28:060][ 90]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-21.20.28:061][ 90]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.20.28:081][ 90]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.04.13-16.20.28
+[2020.04.13-21.20.28:082][ 90]LogWorld: Bringing up level for play took: 0.018673
+[2020.04.13-21.20.28:104][ 90]LogLoad: Took 0.382763 seconds to LoadMap(/Game/Maps/MainMap)
+[2020.04.13-21.20.47:258][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.47:258][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.47:258][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.20.47:259][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.20.47:259][808]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2020.04.13-21.20.47:259][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.47:261][808]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.20.47:262][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.20.47:295][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-21.20.47:295][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.20.47:302][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.20.47:367][808]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.20.47:376][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-21.20.47:399][808]LogUObjectHash: Compacting FUObjectHashTables data took  10.08ms
+[2020.04.13-21.20.47:443][809]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.04.13-21.28.57:991][230]LogSlate: Took 0.016531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.13-21.30.43:897][527]LogHotReload: New module detected: UE4Editor-Koala-0016.dll
+[2020.04.13-21.30.48:150][540]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-21.30.48:860][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.04.13-21.30.49:045][540]LogClass: Could not find existing class KoalaCharacter in package /Script/Koala for HotReload, assuming new class
+[2020.04.13-21.30.49:045][540]LogClass: Function EquipBlueWeapon is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function EquipGreenWeapon is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function EquipRedWeapon is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function Fire is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function LookRight is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function LookUp is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function MoveForward is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function MoveRight is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function NextWeapon is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function PickUpSeed is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function PreviousWeapon is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function SpawnWeapons is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function Sprint is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function StopFire is new.
+[2020.04.13-21.30.49:046][540]LogClass: Function StopSprinting is new.
+[2020.04.13-21.30.49:074][540]LogClass: SeedType HotReload.
+[2020.04.13-21.30.49:074][540]LogClass: WeaponType HotReload.
+[2020.04.13-21.30.49:154][540]LogHotReload: Re-instancing KoalaCharacter after hot-reload.
+[2020.04.13-21.30.50:042][540]LogContentBrowser: Native class hierarchy updated for 'Koala' in 0.0015 seconds. Added 8 classes and 2 folders.
+[2020.04.13-21.30.50:049][540]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2020.04.13-21.30.50:403][540]LogUObjectHash: Compacting FUObjectHashTables data took   8.10ms
+[2020.04.13-21.30.50:455][540]LogContentBrowser: Native class hierarchy populated in 0.0304 seconds. Added 3025 classes and 722 folders.
+[2020.04.13-21.30.50:474][540]Display: HotReload took  2.3s.
+[2020.04.13-21.30.56:878][738]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.13-21.30.57:049][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.30.57:050][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-21.30.57:050][738]PIE: New page: Sesión PIE (reproducción en el editor): Menu (13 abr. 2020 11:30:57)
+[2020.04.13-21.30.57:051][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2020.04.13-21.30.57:056][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005377s)
+[2020.04.13-21.30.57:060][738]LogAIModule: Creating AISystem for world Menu
+[2020.04.13-21.30.57:061][738]LogPlayLevel: PIE: World Init took: (0.004340s)
+[2020.04.13-21.30.57:061][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.010207s)
+[2020.04.13-21.30.57:130][738]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-21.30.57:132][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-21.30.57:133][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-21.30.57:134][738]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-21.30.57:134][738]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Name: Altavoces (High Definition Audio Device)
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-21.30.57:176][738]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-21.30.57:177][738]LogAudioMixer: Display: Channel Order:
+[2020.04.13-21.30.57:177][738]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-21.30.57:177][738]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-21.30.57:232][738]LogAudioMixer: Display: Using Audio Device Altavoces (High Definition Audio Device)
+[2020.04.13-21.30.57:236][738]LogInit: FAudioDevice initialized.
+[2020.04.13-21.30.57:257][738]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.30.57:259][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.04.13-16.30.57
+[2020.04.13-21.30.57:260][738]LogWorld: Bringing up level for play took: 0.001308
+[2020.04.13-21.30.57:261][738]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.04.13-21.30.57:274][738]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.13-21.30.57:277][738]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/Maps/UEDPIE_0_Menu -0.055
+[2020.04.13-21.30.57:278][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2020.04.13-21.30.58:393][792]LogNet: Browse: /Game/Maps/Intro
+[2020.04.13-21.30.58:394][792]LogLoad: LoadMap: /Game/Maps/Intro
+[2020.04.13-21.30.58:394][792]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Menu
+[2020.04.13-21.30.58:395][792]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.30.58:395][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.30.58:396][792]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.30.58:471][792]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.04.13-21.30.59:047][792]LogAIModule: Creating AISystem for world Intro
+[2020.04.13-21.30.59:047][792]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.30.59:059][792]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Intro.Intro up for play (max tick rate 60) at 2020.04.13-16.30.59
+[2020.04.13-21.30.59:060][792]LogWorld: Bringing up level for play took: 0.010749
+[2020.04.13-21.30.59:068][792]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(776)]!
+[2020.04.13-21.30.59:070][792]LogLoad: Took 0.676528 seconds to LoadMap(/Game/Maps/Intro)
+[2020.04.13-21.31.03:120][945]LogNet: Browse: /Game/Maps/MainMap
+[2020.04.13-21.31.03:120][945]LogLoad: LoadMap: /Game/Maps/MainMap
+[2020.04.13-21.31.03:120][945]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Intro
+[2020.04.13-21.31.03:121][945]LogWorld: UWorld::CleanupWorld for Intro, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-21.31.03:122][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-21.31.03:122][945]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-21.31.03:194][945]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.04.13-21.31.03:542][945]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-21.31.03:543][945]LogLoad: Game class is 'KoalaGameModeBase_BP_C'
+[2020.04.13-21.31.03:557][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.04.13-16.31.03
+[2020.04.13-21.31.03:558][945]LogWorld: Bringing up level for play took: 0.013112
+[2020.04.13-21.31.03:572][945]LogLoad: Took 0.451166 seconds to LoadMap(/Game/Maps/MainMap)
+[2020.04.13-21.31.03:715][945]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:718][945]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:719][945]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:719][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:784][946]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:785][946]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:785][946]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:785][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:871][947]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:872][947]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:872][947]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:873][947]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:904][948]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:904][948]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:905][948]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:905][948]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:923][949]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:924][949]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:924][949]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:925][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:948][950]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:948][950]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.03:949][950]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.03:950][950]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:063][951]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:064][951]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:064][951]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:065][951]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:093][952]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:093][952]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:094][952]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:094][952]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:121][953]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:121][953]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:121][953]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:122][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:151][954]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:151][954]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:152][954]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:152][954]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:178][955]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:179][955]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:179][955]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:180][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:206][956]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:206][956]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:207][956]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:207][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:230][957]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:231][957]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:231][957]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:232][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:256][958]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:257][958]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:258][958]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:258][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:285][959]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:285][959]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:286][959]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:286][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:311][960]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:312][960]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:312][960]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:312][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:333][961]LogScript: Warning: Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:334][961]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:334][961]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_0
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.04:334][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:357][962]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:357][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:380][963]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:380][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:396][964]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:397][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:420][965]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:420][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:441][966]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:442][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:462][967]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:462][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:486][968]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:487][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:508][969]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:509][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:532][970]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:532][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:556][971]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:557][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:582][972]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:584][972]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:609][973]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:609][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:635][974]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:636][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:660][975]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:661][975]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:687][976]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:688][976]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:713][977]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:713][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:740][978]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:740][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:765][979]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:765][979]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:790][980]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:791][980]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:817][981]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:817][981]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:842][982]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:843][982]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:868][983]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:869][983]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:894][984]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:894][984]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:919][985]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:920][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:945][986]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:946][986]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:972][987]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:972][987]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:998][988]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.04:998][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:024][989]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:025][989]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:051][990]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:051][990]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:078][991]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:079][991]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:104][992]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:104][992]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:132][993]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:132][993]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:172][994]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:172][994]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:198][995]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:199][995]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:224][996]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:224][996]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:253][997]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:253][997]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:290][998]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:291][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:313][999]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:314][999]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:333][  0]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:334][  0]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:356][  1]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:357][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:376][  2]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:376][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:403][  3]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:403][  3]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:424][  4]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:425][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:448][  5]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:448][  5]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:473][  6]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:473][  6]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:500][  7]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:500][  7]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:525][  8]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:526][  8]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:552][  9]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:553][  9]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:580][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:580][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:606][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:607][ 11]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:632][ 12]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:632][ 12]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:659][ 13]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:659][ 13]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:685][ 14]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:685][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:712][ 15]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:712][ 15]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:739][ 16]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:740][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:766][ 17]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:767][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:793][ 18]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:793][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:818][ 19]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:819][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:844][ 20]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:845][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:871][ 21]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:872][ 21]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:898][ 22]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:898][ 22]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:924][ 23]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:925][ 23]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:951][ 24]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:952][ 24]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:977][ 25]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.05:977][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:003][ 26]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:004][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:031][ 27]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:032][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:058][ 28]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:058][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:083][ 29]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:084][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:110][ 30]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:110][ 30]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:137][ 31]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:137][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:162][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:162][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:189][ 33]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:190][ 33]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:215][ 34]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:216][ 34]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:242][ 35]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:242][ 35]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:267][ 36]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:268][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:295][ 37]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:296][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:321][ 38]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:322][ 38]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:348][ 39]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:349][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:374][ 40]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:375][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:389][ 40]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:390][ 40]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:391][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:419][ 41]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:419][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:420][ 41]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:420][ 41]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:421][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:445][ 42]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:446][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:446][ 42]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:447][ 42]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:447][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:472][ 43]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:473][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:473][ 43]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:473][ 43]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:474][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:494][ 44]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:495][ 44]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:495][ 44]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:495][ 44]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:496][ 44]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:515][ 45]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:516][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:516][ 45]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:516][ 45]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:517][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:537][ 46]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:538][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:539][ 46]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:539][ 46]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:539][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:562][ 47]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:563][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:563][ 47]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:564][ 47]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:564][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:589][ 48]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:589][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:590][ 48]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:590][ 48]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:590][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:615][ 49]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:616][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:617][ 49]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:617][ 49]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:617][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:642][ 50]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:643][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:643][ 50]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:643][ 50]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:644][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:669][ 51]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:670][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:670][ 51]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:670][ 51]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:671][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:696][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:696][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:697][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:697][ 52]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:697][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:723][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:723][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:724][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:724][ 53]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:725][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:750][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:751][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:752][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Camera'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation
+[2020.04.13-21.31.06:752][ 54]LogScript: Warning: Accessed None trying to read property Camera
+	Potato_BP_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.Potato_BP_C_1
+	Function /Game/Blueprints/Enemies/Potato/Potato_BP.Potato_BP_C:ExecuteUbergraph_Potato_BP:00DC
+[2020.04.13-21.31.06:753][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Camera". Blueprint:  Potato_BP Function:  Execute Ubergraph Potato BP Graph:  EventGraph Node:  SetWorldRotation

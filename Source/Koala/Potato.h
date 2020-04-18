@@ -22,6 +22,7 @@ protected:
 private:
 
 	class APotatoController* PotatoController;
+	class AKoalaCharacter* Koala;
 
 public:	
 	// Called every frame
@@ -42,5 +43,6 @@ public:
 	bool bIsDead;
 
 	FORCEINLINE class APotatoController* const GetPotatoController() { return PotatoController; }
+	FORCEINLINE class AKoalaCharacter* const GetKoala() { return Koala; }
 
 };

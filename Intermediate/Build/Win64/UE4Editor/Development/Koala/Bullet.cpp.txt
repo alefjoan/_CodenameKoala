@@ -15,3 +15,5 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine/Classes/GameFra
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\Users\Peter\Documents\Unreal Projects\Koala\Source\Koala\FruitTree.h
+C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Inc\Koala\FruitTree.generated.h

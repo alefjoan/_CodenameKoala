@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Koala.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4C60F03B-C10B-4B44-90E3-DC0960103B4E}</UniqueIdentifier>
+      <UniqueIdentifier>{67C304DB-309E-4931-B1AA-922B32798C64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Koala.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FB08BF8A-957E-4D22-A498-48B831BEB74E}</UniqueIdentifier>
+      <UniqueIdentifier>{859DC367-6E53-4979-AE96-285878A8881A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Koala">
-      <UniqueIdentifier>{20650706-A542-43E8-9773-115F51475FF9}</UniqueIdentifier>
+      <UniqueIdentifier>{E8A26658-86A2-4E49-A23B-2A4B9EDE3BB4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Koala\Bullet.cpp">
       <Filter>Source\Koala</Filter>
@@ -35,10 +35,10 @@
     <ClInclude Include="..\..\Source\Koala\Bullet.h">
       <Filter>Source\Koala</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Koala\CombatLocation.cpp">
+    <ClCompile Include="..\..\Source\Koala\FruitTree.cpp">
       <Filter>Source\Koala</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Koala\CombatLocation.h">
+    <ClInclude Include="..\..\Source\Koala\FruitTree.h">
       <Filter>Source\Koala</Filter>
     </ClInclude>
     <None Include="..\..\Source\Koala\Koala.Build.cs">
@@ -78,6 +78,12 @@
       <Filter>Source\Koala</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Koala\PotatoSpawnPoint.h">
+      <Filter>Source\Koala</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Koala\Seed.cpp">
+      <Filter>Source\Koala</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Koala\Seed.h">
       <Filter>Source\Koala</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Koala\Weapon.cpp">

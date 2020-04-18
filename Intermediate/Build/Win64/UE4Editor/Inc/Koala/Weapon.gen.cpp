@@ -191,6 +191,18 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AmmoCost_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_AmmoCost;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentAmmo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CurrentAmmo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxAmmo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MaxAmmo;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Bullet_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Bullet;
@@ -227,6 +239,27 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWeapon_Statics::NewProp_AmmoCost_MetaData[] = {
+		{ "Category", "Ammo" },
+		{ "ModuleRelativePath", "Weapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AWeapon_Statics::NewProp_AmmoCost = { "AmmoCost", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWeapon, AmmoCost), METADATA_PARAMS(Z_Construct_UClass_AWeapon_Statics::NewProp_AmmoCost_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWeapon_Statics::NewProp_AmmoCost_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWeapon_Statics::NewProp_CurrentAmmo_MetaData[] = {
+		{ "Category", "Ammo" },
+		{ "ModuleRelativePath", "Weapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AWeapon_Statics::NewProp_CurrentAmmo = { "CurrentAmmo", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWeapon, CurrentAmmo), METADATA_PARAMS(Z_Construct_UClass_AWeapon_Statics::NewProp_CurrentAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWeapon_Statics::NewProp_CurrentAmmo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWeapon_Statics::NewProp_MaxAmmo_MetaData[] = {
+		{ "Category", "Ammo" },
+		{ "ModuleRelativePath", "Weapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AWeapon_Statics::NewProp_MaxAmmo = { "MaxAmmo", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWeapon, MaxAmmo), METADATA_PARAMS(Z_Construct_UClass_AWeapon_Statics::NewProp_MaxAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWeapon_Statics::NewProp_MaxAmmo_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWeapon_Statics::NewProp_Bullet_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Projectile" },
@@ -256,6 +289,9 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AWeapon_Statics::NewProp_WeaponType = { "WeaponType", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWeapon, WeaponType), Z_Construct_UEnum_Koala_WeaponType, METADATA_PARAMS(Z_Construct_UClass_AWeapon_Statics::NewProp_WeaponType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AWeapon_Statics::NewProp_WeaponType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWeapon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_AmmoCost,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_CurrentAmmo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_MaxAmmo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_Bullet,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_MuzzleOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWeapon_Statics::NewProp_WeaponSpread,
@@ -288,7 +324,7 @@ void EmptyLinkFunctionForGeneratedCodeWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWeapon, 2362980620);
+	IMPLEMENT_CLASS(AWeapon, 2440112763);
 	template<> KOALA_API UClass* StaticClass<AWeapon>()
 	{
 		return AWeapon::StaticClass();

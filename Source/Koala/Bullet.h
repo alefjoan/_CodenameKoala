@@ -29,8 +29,6 @@ protected:
 	APotato* Potato;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	FORCEINLINE class USphereComponent* GetCollisionComponent() const { return CollisionComponent; }
 	FORCEINLINE class UProjectileMovementComponent* GetProjectileMovementComponent() const { return ProjectileMovementComponent; }

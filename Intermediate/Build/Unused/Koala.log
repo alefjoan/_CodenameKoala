@@ -1,6 +1,7 @@
-﻿  Parsing headers for KoalaEditor
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Peter\Documents\Unreal Projects\Koala).
+  Parsing headers for KoalaEditor
     Running UnrealHeaderTool "C:\Users\Peter\Documents\Unreal Projects\Koala\Koala.uproject" "C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\KoalaEditor\Development\KoalaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for KoalaEditor in 8.9582144 seconds
+  Reflection code generated for KoalaEditor in 9.6644632 seconds
   Building KoalaEditor...
   Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -11,11 +12,11 @@
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in KoalaEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
   Building 4 actions with 4 processes...
-    [1/4] PotatoController.cpp
-    [2/4] UE4Editor-Koala-0030.lib
-       Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0030.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0030.exp
-    [3/4] UE4Editor-Koala-0030.dll
-       Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0030.suppressed.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0030.suppressed.exp
+    [1/4] KoalaCharacter.cpp
+    [2/4] UE4Editor-Koala-0072.lib
+       Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0072.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0072.exp
+    [3/4] UE4Editor-Koala-0072.dll
+       Creando biblioteca C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0072.suppressed.lib y objeto C:\Users\Peter\Documents\Unreal Projects\Koala\Intermediate\Build\Win64\UE4Editor\Development\Koala\UE4Editor-Koala-0072.suppressed.exp
     [4/4] KoalaEditor.target
-  Total time in Parallel executor: 4.72 seconds
-  Total execution time: 15.11 seconds
+  Total time in Parallel executor: 3.74 seconds
+  Total execution time: 15.22 seconds

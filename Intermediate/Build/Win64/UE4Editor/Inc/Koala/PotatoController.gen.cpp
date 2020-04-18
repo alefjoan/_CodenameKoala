@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodePotatoController() {}
 	KOALA_API UFunction* Z_Construct_UFunction_APotatoController_OnPawnDetect();
 	AIMODULE_API UScriptStruct* Z_Construct_UScriptStruct_FAIStimulus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	KOALA_API UFunction* Z_Construct_UFunction_APotatoController_PotatoDeath();
 	KOALA_API UFunction* Z_Construct_UFunction_APotatoController_ReactToDeaths();
 	KOALA_API UFunction* Z_Construct_UFunction_APotatoController_SetRandomLocation();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -44,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodePotatoController() {}
 			{ "ForgetDamageTaken", &APotatoController::execForgetDamageTaken },
 			{ "ForgetPlayer", &APotatoController::execForgetPlayer },
 			{ "OnPawnDetect", &APotatoController::execOnPawnDetect },
+			{ "PotatoDeath", &APotatoController::execPotatoDeath },
 			{ "ReactToDeaths", &APotatoController::execReactToDeaths },
 			{ "SetRandomLocation", &APotatoController::execSetRandomLocation },
 		};
@@ -239,6 +241,28 @@ void EmptyLinkFunctionForGeneratedCodePotatoController() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APotatoController_PotatoDeath_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APotatoController_PotatoDeath_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PotatoController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APotatoController_PotatoDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APotatoController, nullptr, "PotatoDeath", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APotatoController_PotatoDeath_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APotatoController_PotatoDeath_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APotatoController_PotatoDeath()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APotatoController_PotatoDeath_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_APotatoController_ReactToDeaths_Statics
 	{
 #if WITH_METADATA
@@ -370,6 +394,7 @@ void EmptyLinkFunctionForGeneratedCodePotatoController() {}
 		{ &Z_Construct_UFunction_APotatoController_ForgetDamageTaken, "ForgetDamageTaken" }, // 2583331626
 		{ &Z_Construct_UFunction_APotatoController_ForgetPlayer, "ForgetPlayer" }, // 3852216021
 		{ &Z_Construct_UFunction_APotatoController_OnPawnDetect, "OnPawnDetect" }, // 2608597438
+		{ &Z_Construct_UFunction_APotatoController_PotatoDeath, "PotatoDeath" }, // 3501563531
 		{ &Z_Construct_UFunction_APotatoController_ReactToDeaths, "ReactToDeaths" }, // 1018562664
 		{ &Z_Construct_UFunction_APotatoController_SetRandomLocation, "SetRandomLocation" }, // 2932124549
 	};
@@ -533,7 +558,7 @@ void EmptyLinkFunctionForGeneratedCodePotatoController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APotatoController, 2269472978);
+	IMPLEMENT_CLASS(APotatoController, 1208253595);
 	template<> KOALA_API UClass* StaticClass<APotatoController>()
 	{
 		return APotatoController::StaticClass();

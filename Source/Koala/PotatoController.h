@@ -6,7 +6,6 @@
 #include "AIController.h"
 #include "KoalaCharacter.h"
 #include "Potato.h"
-#include "CombatLocation.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
 #include "Perception/AISense_Sight.h"
@@ -31,8 +30,6 @@ class KOALA_API APotatoController : public AAIController
 private:
 
 	AKoalaCharacter* KoalaCharacter;
-
-	ACombatLocation* CombatLocation;
 
 	APotato* Potato;
 
@@ -79,6 +76,9 @@ public:
 
 	UFUNCTION()
 	void ForgetDamageTaken();
+
+	UFUNCTION()
+	void PotatoDeath();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
 	float SightRadius = 750.0f;

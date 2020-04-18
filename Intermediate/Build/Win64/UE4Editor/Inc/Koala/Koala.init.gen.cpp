@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeKoala_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAADAC6E0,
-				0x72EC7D50,
+				0x4CB0F51E,
+				0x96819631,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
